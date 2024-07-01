@@ -1,0 +1,1110 @@
+[
+    {
+        "data": [
+            {
+                "ic": "Austin Chandler",
+                "date": "2024-02-14T07:43:54.619",
+                "name": "ARA UAW East 7-1",
+                "type": "Prescribed Fire",
+                "uuid": "02755ce6-f76b-4436-a3f2-698bf07a1bc3",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "23",
+                "fire_num": null,
+                "latitude": "42.105102",
+                "location": null,
+                "longitude": "122.983071",
+                "resources": [
+                    null
+                ],
+                "webComment": "No ongoing Rx",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"23\", \"fire_code\": null, \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-05-13T07:14:20.117",
+                "name": "SM Flumet",
+                "type": "Prescribed Fire",
+                "uuid": "075a5760-2994-46e8-a3ae-c031f9bddb50",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "56",
+                "fire_num": null,
+                "latitude": "42.120371",
+                "location": "Palmer Creek",
+                "longitude": "123.102928",
+                "resources": [
+                    null
+                ],
+                "webComment": "Burn Complete",
+                "fire_status": "{\"out\": \"2024-06-16T10:58:00\", \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"56\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-07-15T17:51:00",
+                "name": "Flat",
+                "type": "Wildfire",
+                "uuid": "0ba48df3-b228-4754-8519-d6987d3e109f",
+                "acres": "34242",
+                "fuels": null,
+                "inc_num": "209",
+                "fire_num": null,
+                "latitude": "42.515800",
+                "location": null,
+                "longitude": "124.037200",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"209\", \"fire_code\": \"QDL4\", \"wfdssunit\": \"ORRSF\", \"fs_job_code\": \"P6\", \"fs_override\": \"0610\", \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-05-16T17:11:53.598",
+                "name": "WR BKS FR 16",
+                "type": "Prescribed Fire",
+                "uuid": "0f7041e7-53cb-472b-b034-30e23d6d8543",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "70",
+                "fire_num": null,
+                "latitude": "42.337430",
+                "location": null,
+                "longitude": "123.612076",
+                "resources": [
+                    null
+                ],
+                "webComment": "Ignitions complete",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"70\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Fukuda",
+                "date": "2024-05-14T07:16:49.304",
+                "name": "GP Stratton Hog 1-5",
+                "type": "Prescribed Fire",
+                "uuid": "110413be-329e-4b00-ad2e-215acc8bd345",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "61",
+                "fire_num": null,
+                "latitude": "42.557200",
+                "location": null,
+                "longitude": "123.474835",
+                "resources": [
+                    null
+                ],
+                "webComment": "Ignitions Complete",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"61\", \"fire_code\": null, \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-05-13T11:09:47.001",
+                "name": "HC Woodruff",
+                "type": "Prescribed Fire",
+                "uuid": "116f09c5-f27e-49f2-a13b-36372b1ae831",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "58",
+                "fire_num": null,
+                "latitude": "42.859609",
+                "location": "",
+                "longitude": "122.489819",
+                "resources": [
+                    null
+                ],
+                "webComment": "Ignitions Complete",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"58\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-06-17T17:54:29.011",
+                "name": "SWCC Support NM-SWC",
+                "type": "Resource Order",
+                "uuid": "1469f5d9-bbe8-4237-b491-0e02fb87f4bd",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "113",
+                "fire_num": null,
+                "latitude": "42.361547",
+                "location": null,
+                "longitude": "122.871265",
+                "resources": [
+                    "C-10"
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"113\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-06-13T14:53:30.05",
+                "name": "Little Twist UT-FIF",
+                "type": "Resource Order",
+                "uuid": "166d33b0-155c-462b-a888-c224251525c6",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "104",
+                "fire_num": null,
+                "latitude": "42.361550",
+                "location": null,
+                "longitude": "122.871201",
+                "resources": [
+                    "C-6 IHC"
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"104\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-06-20T09:24:28.426",
+                "name": "GPRA Mill Creek",
+                "type": "Smoke Check",
+                "uuid": "20841c29-0bd0-49ef-a78a-24d2d842be89",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "118",
+                "fire_num": null,
+                "latitude": "42.717670",
+                "location": null,
+                "longitude": "123.416020",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"118\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-06-12T11:11:09.171",
+                "name": "Gold Nugget",
+                "type": "Smoke Check",
+                "uuid": "216e2b9a-98c0-4740-b250-9359bf6cf2b7",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "101",
+                "fire_num": null,
+                "latitude": "42.458306",
+                "location": null,
+                "longitude": "123.026748",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"101\", \"fire_code\": null, \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Woodbridge",
+                "date": "2024-05-29T10:12:15.284",
+                "name": "HC Clarks Fork 9C",
+                "type": "Prescribed Fire",
+                "uuid": "3239f40c-cc9d-4866-a94d-ec8623bb6f3e",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "86",
+                "fire_num": null,
+                "latitude": "42.526112",
+                "location": "N/NW of Whiskey Spring and Fourbit Ford Campground",
+                "longitude": "122.410890",
+                "resources": [
+                    null
+                ],
+                "webComment": "Planned ignitions 5/30 @1000",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"86\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-06-16T15:22:41.478",
+                "name": "HC NS Browns Creek",
+                "type": "Nonstatistical Fire",
+                "uuid": "3a535ede-10a6-451b-8b52-9580ce809e5b",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "109",
+                "fire_num": null,
+                "latitude": null,
+                "location": null,
+                "longitude": null,
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"109\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Beau Lee (RXB2) t",
+                "date": "2024-05-08T16:49:29.427",
+                "name": "GP Provolt Unit 1",
+                "type": "Prescribed Fire",
+                "uuid": "4715a44b-a00f-4d56-97d4-0ab119f28d46",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "53",
+                "fire_num": null,
+                "latitude": "42.295122",
+                "location": null,
+                "longitude": "123.237252",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"53\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": \"WFSE 9724 0697\", \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Brandon Hawkins",
+                "date": "2024-05-18T12:52:00",
+                "name": "ARA Texter Gulch",
+                "type": "Prescribed Fire",
+                "uuid": "520450bc-5505-497a-b78c-c83003fe75c5",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "71",
+                "fire_num": null,
+                "latitude": "42.104799",
+                "location": "",
+                "longitude": "123.003831",
+                "resources": [
+                    null
+                ],
+                "webComment": "Ignitions Complete\n",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"71\", \"fire_code\": null, \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Austin Chandler ",
+                "date": "2023-12-19T09:49:00.966",
+                "name": "ARA Buncom Landing Piles",
+                "type": "Prescribed Fire",
+                "uuid": "581c62fc-5891-4503-a1d8-c3520419eb6f",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "566",
+                "fire_num": null,
+                "latitude": null,
+                "location": null,
+                "longitude": null,
+                "resources": [
+                    null
+                ],
+                "webComment": "No ongoing RX\n",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"566\", \"fire_code\": null, \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-06-03T10:17:35.054",
+                "name": "Anvil Fire Suppression Repair",
+                "type": "Miscellaneous",
+                "uuid": "5cac9e83-727b-4588-9557-d45eea752d6d",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "92",
+                "fire_num": null,
+                "latitude": "42.745624",
+                "location": null,
+                "longitude": "124.344374",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"92\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-05-20T16:11:44.825",
+                "name": "WR Waters FR3",
+                "type": "Prescribed Fire",
+                "uuid": "5d423bce-25db-44ae-8da8-c82cf8498b86",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "76",
+                "fire_num": null,
+                "latitude": "42.396308",
+                "location": null,
+                "longitude": "123.572989",
+                "resources": [
+                    null
+                ],
+                "webComment": "No ongoing burn",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"76\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-04-11T07:52:24.243",
+                "name": "ARA Bear Grub",
+                "type": "Prescribed Fire",
+                "uuid": "5e0ad0cf-5746-40cb-bb60-4a692d3378a0",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "40",
+                "fire_num": null,
+                "latitude": "42.265233",
+                "location": "",
+                "longitude": "123.003731",
+                "resources": [
+                    null
+                ],
+                "webComment": "Burn complete",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"40\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-06-13T14:49:00",
+                "name": "Green Mountain",
+                "type": "Wildfire",
+                "uuid": "5f4acfb4-8fb8-45e0-be11-1039bf6e34af",
+                "acres": "0.1",
+                "fuels": null,
+                "inc_num": "105",
+                "fire_num": null,
+                "latitude": "42.065718",
+                "location": null,
+                "longitude": "122.530654",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"105\", \"fire_code\": \"R0JV\", \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-06-20T15:24:00",
+                "name": "ARA  Upper Applegate",
+                "type": "Smoke Check",
+                "uuid": "61710592-c19c-42d6-b852-057288eb239a",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "119",
+                "fire_num": null,
+                "latitude": "42.184044",
+                "location": "",
+                "longitude": "123.043056",
+                "resources": [
+                    "E-1601",
+                    "E-1602",
+                    "C-21",
+                    "H-17HX"
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"119\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Brandon Hawkins",
+                "date": "2024-05-23T07:20:51.959",
+                "name": "ARA Bear Grub M 33-1",
+                "type": "Prescribed Fire",
+                "uuid": "6343ae49-6932-46fd-a322-f0fbf890d690",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "78",
+                "fire_num": null,
+                "latitude": "42.221888",
+                "location": "Sterling Creek",
+                "longitude": "122.944008",
+                "resources": [
+                    null
+                ],
+                "webComment": "Ignitions Complete",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"78\", \"fire_code\": null, \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Sladwick",
+                "date": "2024-05-16T07:31:17.585",
+                "name": "HC Clarks Fork 8B",
+                "type": "Prescribed Fire",
+                "uuid": "693b6ad4-f925-4188-88a4-8746ff693e92",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "66",
+                "fire_num": null,
+                "latitude": "42.502693",
+                "location": "Fourbit Campground",
+                "longitude": "122.403576",
+                "resources": [
+                    null
+                ],
+                "webComment": "Ignitions Complete\n",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"66\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-06-06T09:17:35.534",
+                "name": "GP Provolt Fire School Rx",
+                "type": "Prescribed Fire",
+                "uuid": "6a03e462-e7d7-4ae3-9c1e-5b32f746d534",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "94",
+                "fire_num": null,
+                "latitude": "42.288526",
+                "location": null,
+                "longitude": "123.230773",
+                "resources": [
+                    null
+                ],
+                "webComment": "Ignitions Complete\n",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"94\", \"fire_code\": null, \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Jesse Kiene",
+                "date": "2024-05-14T07:13:58.244",
+                "name": "ARA UAW 511 MRX",
+                "type": "Prescribed Fire",
+                "uuid": "6e0bbef5-2e2e-4237-b337-f43e989a4132",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "60",
+                "fire_num": null,
+                "latitude": "42.163360",
+                "location": "Star Gulch",
+                "longitude": "123.062889",
+                "resources": [
+                    null
+                ],
+                "webComment": "Ignitions complete\n",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"60\", \"fire_code\": null, \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-01-25T08:18:48.147",
+                "name": "BF Ranchero TS",
+                "type": "Prescribed Fire",
+                "uuid": "72fb2431-f07d-414a-a172-d3097a91858d",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "10",
+                "fire_num": null,
+                "latitude": "42.540553",
+                "location": null,
+                "longitude": "122.410450",
+                "resources": [
+                    null
+                ],
+                "webComment": "No ongoing RX",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"10\", \"fire_code\": null, \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-05-12T07:23:00",
+                "name": "Hog Creek",
+                "type": "Wildfire",
+                "uuid": "77fbbdc8-532b-4d34-9994-998edf623eb7",
+                "acres": "5.71",
+                "fuels": null,
+                "inc_num": "57",
+                "fire_num": null,
+                "latitude": "42.550167",
+                "location": null,
+                "longitude": "123.479167",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"57\", \"fire_code\": \"RX1J\", \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-06-16T09:17:34.943",
+                "name": "2024 OSC EQUIPMENT/CREWS PREPOSITION",
+                "type": "Resource Order",
+                "uuid": "79df14b0-9e5b-4d6f-ad69-267d948d5940",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "107",
+                "fire_num": null,
+                "latitude": null,
+                "location": null,
+                "longitude": null,
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"107\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-06-16T11:45:13.769",
+                "name": "HC NS Meadows Parker",
+                "type": "Nonstatistical Fire",
+                "uuid": "7c2d9924-ff1a-47cc-a332-9379d3530729",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "108",
+                "fire_num": null,
+                "latitude": null,
+                "location": null,
+                "longitude": null,
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"108\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-05-16T17:09:54.272",
+                "name": "GP Angora",
+                "type": "Prescribed Fire",
+                "uuid": "84ced677-79aa-4868-8b05-8940ad1c988e",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "69",
+                "fire_num": null,
+                "latitude": "42.629766",
+                "location": null,
+                "longitude": "123.494838",
+                "resources": [
+                    null
+                ],
+                "webComment": "Ignitions complete",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"69\", \"fire_code\": null, \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Leo Engleson",
+                "date": "2024-05-19T12:01:24.39",
+                "name": "BF Round Oak",
+                "type": "Prescribed Fire",
+                "uuid": "8a81e98b-9810-4f5b-b8c6-155886d07f57",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "73",
+                "fire_num": null,
+                "latitude": "42.599864",
+                "location": null,
+                "longitude": "122.509438",
+                "resources": [
+                    null
+                ],
+                "webComment": "Ignitions Complete",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"73\", \"fire_code\": null, \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Leo Engleson",
+                "date": "2024-05-22T16:31:09.981",
+                "name": "BF Lodgepole 24-1UBn",
+                "type": "Prescribed Fire",
+                "uuid": "8c138307-2fa6-4cdb-8181-5122820b5adb",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "77",
+                "fire_num": null,
+                "latitude": "42.598594",
+                "location": null,
+                "longitude": "122.409884",
+                "resources": [
+                    null
+                ],
+                "webComment": "Ignitions Complete",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"77\", \"fire_code\": null, \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "VanNice",
+                "date": "2024-05-16T07:16:27.863",
+                "name": "HC Clarks Fork 8A",
+                "type": "Prescribed Fire",
+                "uuid": "8f85e0ba-2a7e-49ee-8a2d-c2b08351a335",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "65",
+                "fire_num": null,
+                "latitude": "42.503417",
+                "location": "Near Fourbit Campground",
+                "longitude": "122.413283",
+                "resources": [
+                    null
+                ],
+                "webComment": "Ignitions complete",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"65\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Hawkins",
+                "date": "2024-01-04T10:01:55.339",
+                "name": "ARA Rio Sag Landing Piles",
+                "type": "Prescribed Fire",
+                "uuid": "99957fe4-6f4b-42b2-a8e4-173343b14477",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "1",
+                "fire_num": null,
+                "latitude": "42.367435",
+                "location": null,
+                "longitude": "122.688864",
+                "resources": [
+                    null
+                ],
+                "webComment": "No ongoing RX",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"1\", \"fire_code\": null, \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Lindsay Negherbon",
+                "date": "2024-05-20T08:35:15.546",
+                "name": "HC Clarks Fork 7B",
+                "type": "Prescribed Fire",
+                "uuid": "99c312b3-524e-4899-adcd-97d2893c532e",
+                "acres": null,
+                "fuels": "",
+                "inc_num": "75",
+                "fire_num": "",
+                "latitude": "42.410946",
+                "location": "",
+                "longitude": "122.356180",
+                "resources": [
+                    null
+                ],
+                "webComment": "Ignitions complete",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"75\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-06-20T07:50:04.534",
+                "name": "Pioneer WA-SES",
+                "type": "Resource Order",
+                "uuid": "a3c945e6-bcc2-4f38-b435-0b24dda2ed8a",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "116",
+                "fire_num": null,
+                "latitude": null,
+                "location": null,
+                "longitude": null,
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"116\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-03-19T07:15:00.424",
+                "name": "ARA UAW 556",
+                "type": "Prescribed Fire",
+                "uuid": "a67573bf-b9e9-4e33-b5d7-c072d42aac1e",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "28",
+                "fire_num": null,
+                "latitude": "42.133948",
+                "location": "Applegate River",
+                "longitude": "123.023488",
+                "resources": [
+                    null
+                ],
+                "webComment": "No ongoing RX burn ",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"28\", \"fire_code\": null, \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-04-23T08:17:54.889",
+                "name": "UAW East 27-1",
+                "type": "Prescribed Fire",
+                "uuid": "a7184431-8e0c-4e3e-b2c7-65a44dd190df",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "45",
+                "fire_num": null,
+                "latitude": "42.143450",
+                "location": null,
+                "longitude": "123.046015",
+                "resources": [
+                    null
+                ],
+                "webComment": "Ignitions Complete 4/23",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"45\", \"fire_code\": null, \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-05-19T08:07:36.741",
+                "name": "SM AFR 20C",
+                "type": "Prescribed Fire",
+                "uuid": "a9957e2b-e932-4787-b987-2cfc257171fa",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "72",
+                "fire_num": null,
+                "latitude": "42.120003",
+                "location": null,
+                "longitude": "122.709029",
+                "resources": [
+                    null
+                ],
+                "webComment": "Ignitions complete",
+                "fire_status": "{\"out\": \"2024-06-06T11:45:00\", \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"72\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "David Smith",
+                "date": "2024-05-15T07:20:00",
+                "name": "SM AFR Unit 37",
+                "type": "Prescribed Fire",
+                "uuid": "aba612ca-ec20-4a46-8c5f-7c2008300979",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "64",
+                "fire_num": null,
+                "latitude": "42.149133",
+                "location": null,
+                "longitude": "122.747986",
+                "resources": [
+                    null
+                ],
+                "webComment": "Ignitions complete",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"64\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Andrew Sandri",
+                "date": "2024-05-30T16:40:23.545",
+                "name": "HC Clarks Fork 9A",
+                "type": "Prescribed Fire",
+                "uuid": "ad19817f-ed50-4b18-a34f-aa8b88377868",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "90",
+                "fire_num": null,
+                "latitude": "42.526112",
+                "location": "",
+                "longitude": "122.410890",
+                "resources": [
+                    null
+                ],
+                "webComment": "Ignitions Complete",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"90\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-06-13T08:52:26.794",
+                "name": "2024 BLM State Severity NV-CCD",
+                "type": "Resource Order",
+                "uuid": "b445c451-dce1-4fa8-b571-60a978a7f0ca",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "102",
+                "fire_num": null,
+                "latitude": "42.361567",
+                "location": null,
+                "longitude": "122.871255",
+                "resources": [
+                    "E-1603"
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"102\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-08-25T12:23:00",
+                "name": "Anvil",
+                "type": "Wildfire",
+                "uuid": "b7b1bb35-85ca-45dd-83f4-364f13926718",
+                "acres": "22170",
+                "fuels": "Heavy Timber",
+                "inc_num": "413",
+                "fire_num": null,
+                "latitude": "42.745800",
+                "location": null,
+                "longitude": "124.343600",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"413\", \"fire_code\": \"QLT0\", \"wfdssunit\": \"ORRSF\", \"fs_job_code\": \"P6\", \"fs_override\": \"0610\", \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-06-17T20:26:23.23",
+                "name": "SM Spencer Gulch",
+                "type": "Smoke Check",
+                "uuid": "bbba04d5-2423-48dd-aeb1-4cf797190e82",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "114",
+                "fire_num": null,
+                "latitude": "42.207001",
+                "location": null,
+                "longitude": "123.023662",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"114\", \"fire_code\": null, \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Altheide",
+                "date": "2024-02-12T08:30:58.588",
+                "name": "WR Star Flat",
+                "type": "Prescribed Fire",
+                "uuid": "cd19388b-0952-4944-9a4b-dacc6587611b",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "18",
+                "fire_num": null,
+                "latitude": "42.278946",
+                "location": null,
+                "longitude": "123.670567",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"18\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-06-17T11:05:09.53",
+                "name": "Branch Galls",
+                "type": "Wildfire",
+                "uuid": "cd4bc114-a9f2-47ed-b2a8-0e177386363f",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "110",
+                "fire_num": null,
+                "latitude": "42.356167",
+                "location": null,
+                "longitude": "123.076000",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"110\", \"fire_code\": \"R0T6\", \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-01-17T10:15:02.483",
+                "name": "HC Big Pines 1",
+                "type": "Prescribed Fire",
+                "uuid": "d2a78369-ff0a-4fb3-8505-cfeaf968265f",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "4",
+                "fire_num": null,
+                "latitude": "42.787267",
+                "location": null,
+                "longitude": "122.469336",
+                "resources": [
+                    null
+                ],
+                "webComment": "No ongoing RX",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"4\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Gallego",
+                "date": "2024-05-29T14:38:51.606",
+                "name": "WR River Bench Campground",
+                "type": "Prescribed Fire",
+                "uuid": "d60fdaf2-4319-4073-ac7a-b1f58656eca9",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "87",
+                "fire_num": null,
+                "latitude": "42.293557",
+                "location": null,
+                "longitude": "123.748141",
+                "resources": [
+                    null
+                ],
+                "webComment": "Ignitions Complete",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"87\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Lloyd Cruz",
+                "date": "2024-01-17T08:31:00",
+                "name": "SM UAW 208/83",
+                "type": "Prescribed Fire",
+                "uuid": "d7477c80-dbc9-444b-8e89-360fdc30feef",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "3",
+                "fire_num": null,
+                "latitude": "42.120504",
+                "location": "",
+                "longitude": "123.122406",
+                "resources": [
+                    null
+                ],
+                "webComment": "No ongoing RX",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"3\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Kit Colbenson",
+                "date": "2024-05-19T13:04:00",
+                "name": "SM AFR 28",
+                "type": "Prescribed Fire",
+                "uuid": "d750c7f2-0ad5-491e-a6f7-c76cabc9a47a",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "74",
+                "fire_num": null,
+                "latitude": "42.163663",
+                "location": null,
+                "longitude": "122.747091",
+                "resources": [
+                    null
+                ],
+                "webComment": "No ongoing burning",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"74\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Austin Chandler",
+                "date": "2024-02-13T09:26:31.194",
+                "name": "ARA Sterling Creek Salvage",
+                "type": "Prescribed Fire",
+                "uuid": "d795c0b0-8333-45a4-87eb-9f7fa6f16415",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "21",
+                "fire_num": null,
+                "latitude": null,
+                "location": null,
+                "longitude": null,
+                "resources": [
+                    null
+                ],
+                "webComment": "No ongoing RX",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"21\", \"fire_code\": null, \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Gallego",
+                "date": "2024-02-13T08:23:25.393",
+                "name": "WR Slater 48Rd Salvage",
+                "type": "Prescribed Fire",
+                "uuid": "f40808d2-1197-4f2f-9695-5bdd934c44a5",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "20",
+                "fire_num": null,
+                "latitude": "42.060479",
+                "location": null,
+                "longitude": "123.552745",
+                "resources": [
+                    null
+                ],
+                "webComment": "No ongoing RX",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"20\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-06-20T16:42:07.76",
+                "name": "BFRA HWY 62",
+                "type": "Smoke Check",
+                "uuid": "f4e85088-1043-4d92-b7e1-e4785463f740",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "120",
+                "fire_num": null,
+                "latitude": null,
+                "location": null,
+                "longitude": null,
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"120\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-06-15T08:50:00",
+                "name": "New Canyon RX UT-MLF",
+                "type": "Resource Order",
+                "uuid": "fa863133-9852-4163-9565-246c2fc8b0ea",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "106",
+                "fire_num": null,
+                "latitude": "42.361547",
+                "location": null,
+                "longitude": "122.871265",
+                "resources": [
+                    "E-661"
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"106\", \"fire_code\": null, \"wfdssunit\": \"ORRSF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2024-06-06T10:55:00",
+                "name": "I-5 MM51 NB",
+                "type": "Smoke Check",
+                "uuid": "fad4f6fc-5b47-4d38-a831-5211fb39170c",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "97",
+                "fire_num": null,
+                "latitude": "42.423333",
+                "location": null,
+                "longitude": "123.201833",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"97\", \"fire_code\": \"R0BL\", \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Leo Engleson",
+                "date": "2024-02-08T08:25:05.926",
+                "name": "BF Upper Table Rock U14",
+                "type": "Prescribed Fire",
+                "uuid": "fafb1e30-1a15-4614-82b1-fccc4ef08458",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "17",
+                "fire_num": null,
+                "latitude": "42.483776",
+                "location": null,
+                "longitude": "122.905529",
+                "resources": [
+                    null
+                ],
+                "webComment": "No ongoing rx burns.",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"17\", \"fire_code\": null, \"wfdssunit\": \"ORMED\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            }
+        ],
+        "retrieved": "2024-06-21T01:10:49.687714"
+    }
+]

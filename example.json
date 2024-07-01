@@ -1,0 +1,1685 @@
+[
+    {
+        "id": 77560,
+        "code": "J-76",
+        "status": "Out of Svc",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "SHERPA - N176Z"
+    },
+    {
+        "id": 77773,
+        "code": "E611",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 611"
+    },
+    {
+        "id": 77683,
+        "code": "BC-5124",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FUELS BATTALION"
+    },
+    {
+        "id": 77037,
+        "code": "PT32",
+        "status": "Out of Svc",
+        "location": "SCOTT ST WEST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "PREVENTION 32"
+    },
+    {
+        "id": 77656,
+        "code": "EY361",
+        "status": "Out of Svc",
+        "location": "BEND",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE Y361"
+    },
+    {
+        "id": 77078,
+        "code": "BC11",
+        "status": "DO OutSvc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO"
+    },
+    {
+        "id": 77105,
+        "code": "BC-5123",
+        "status": "DO OutSvc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO FUELS"
+    },
+    {
+        "id": 77049,
+        "code": "BC43",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO FUELS"
+    },
+    {
+        "id": 77048,
+        "code": "BC35",
+        "status": "Out of Svc",
+        "location": "CASCADE LAKES",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO FUELS"
+    },
+    {
+        "id": 77045,
+        "code": "BC41",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO"
+    },
+    {
+        "id": 77760,
+        "code": "J-61-01",
+        "status": "Out of Svc",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "SMOKEJUMPER"
+    },
+    {
+        "id": 77044,
+        "code": "DV-4",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "DIVISION 4"
+    },
+    {
+        "id": 77132,
+        "code": "9101",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE ODF",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "UNIT FORESTER"
+    },
+    {
+        "id": 77643,
+        "code": "BC-5126",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "BLM FUELS SPECIALIST"
+    },
+    {
+        "id": 77233,
+        "code": "E330",
+        "status": "Out of Svc",
+        "location": "SCOTT ST WEST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 330"
+    },
+    {
+        "id": 77129,
+        "code": "FT54",
+        "status": "Out of Svc",
+        "location": "CRESCENT",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FUELS 54"
+    },
+    {
+        "id": 77788,
+        "code": "PT702",
+        "status": "Out of Svc",
+        "location": "BEND",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "PREVENTION"
+    },
+    {
+        "id": 77529,
+        "code": "AA-617",
+        "status": "Out of Svc",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AIR ATTACK"
+    },
+    {
+        "id": 77134,
+        "code": "9103",
+        "status": "Available",
+        "location": "THE DALLES, OR",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "PFO"
+    },
+    {
+        "id": 77056,
+        "code": "E351",
+        "status": "Out of Svc",
+        "location": "CRESCENT",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 351"
+    },
+    {
+        "id": 77637,
+        "code": "BC-5125",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "BLM Fuels Specialist"
+    },
+    {
+        "id": 77079,
+        "code": "OPS11",
+        "status": "Out of Svc",
+        "location": "DAYVILLE",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "OPERATIONS"
+    },
+    {
+        "id": 77100,
+        "code": "E9551",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 9551"
+    },
+    {
+        "id": 77108,
+        "code": "OPS21",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "OPERATIONS FUELS"
+    },
+    {
+        "id": 77109,
+        "code": "UT-5121",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FUELS 5121"
+    },
+    {
+        "id": 77118,
+        "code": "C301B",
+        "status": "Out of Svc",
+        "location": "SCOTT ST EAST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "CREW 301 BRAVO"
+    },
+    {
+        "id": 77112,
+        "code": "C101B",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "CREW 101 BRAVO"
+    },
+    {
+        "id": 77113,
+        "code": "C-5201",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "CREW 5201"
+    },
+    {
+        "id": 77115,
+        "code": "C-5201B",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "CREW 5201 BRAVO"
+    },
+    {
+        "id": 77121,
+        "code": "C501B",
+        "status": "Out of Svc",
+        "location": "CRESCENT",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "CREW 501 BRAVO"
+    },
+    {
+        "id": 77123,
+        "code": "BC33",
+        "status": "Out of Svc",
+        "location": "SCOTT ST EAST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO FUELS"
+    },
+    {
+        "id": 77127,
+        "code": "FT35",
+        "status": "Out of Svc",
+        "location": "BEND",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FUELS 35"
+    },
+    {
+        "id": 77163,
+        "code": "CH1",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FIRE STAFF"
+    },
+    {
+        "id": 77164,
+        "code": "CH3",
+        "status": "Out of Svc",
+        "location": "SCOTT ST EAST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "DEPUTY FIRE STAFF W"
+    },
+    {
+        "id": 77204,
+        "code": "CH5",
+        "status": "Out of Svc",
+        "location": "BEND",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ASST FIRE STAFF W"
+    },
+    {
+        "id": 77200,
+        "code": "UT-5122",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FUELS 5122"
+    },
+    {
+        "id": 77244,
+        "code": "CH-5102",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "DEPUTY FIRE STAFF E"
+    },
+    {
+        "id": 77245,
+        "code": "CH-5104",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ASST FIRE STAFF E"
+    },
+    {
+        "id": 77284,
+        "code": "PT-5521",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "PREVENTION 5521"
+    },
+    {
+        "id": 77358,
+        "code": "EY362",
+        "status": "Out of Svc",
+        "location": "BIAK",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE Y362"
+    },
+    {
+        "id": 77518,
+        "code": "H-407MC",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "BELL 407 (N407MC)"
+    },
+    {
+        "id": 77592,
+        "code": "CBN WFM",
+        "status": "Out of Svc",
+        "location": "SCOTT ST EAST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "CABIN LAKE WFM"
+    },
+    {
+        "id": 77583,
+        "code": "BC44",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO"
+    },
+    {
+        "id": 77591,
+        "code": "SNW WFM",
+        "status": "Out of Svc",
+        "location": "SCOTT ST WEST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "SNOW CREEK WFM"
+    },
+    {
+        "id": 77593,
+        "code": "MET WFM",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "METOLIUS WFM"
+    },
+    {
+        "id": 77580,
+        "code": "J-14",
+        "status": "Out of Svc",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "SHERPA - N114Z"
+    },
+    {
+        "id": 77632,
+        "code": "J-62",
+        "status": "Out of Svc",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "JUMPSHIP"
+    },
+    {
+        "id": 77658,
+        "code": "BC-5127",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO FUELS"
+    },
+    {
+        "id": 77662,
+        "code": "BC-5128",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO,FUELS"
+    },
+    {
+        "id": 77673,
+        "code": "E694",
+        "status": "Out of Svc",
+        "location": "SCOTT ST EAST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "OOARS ENGINE 694"
+    },
+    {
+        "id": 77687,
+        "code": "FT33",
+        "status": "Out of Svc",
+        "location": "SCOTT ST EAST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FUELS 33"
+    },
+    {
+        "id": 77741,
+        "code": "CH6",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "DEP FIRE STAFF FUELS"
+    },
+    {
+        "id": 77742,
+        "code": "CH-5107",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "DEP FIRE STAFF FUELS"
+    },
+    {
+        "id": 77743,
+        "code": "CH8",
+        "status": "Out of Svc",
+        "location": "BEND",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "DEP FIRE STAFF FUELS"
+    },
+    {
+        "id": 77734,
+        "code": "J-10",
+        "status": "Out of Svc",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "JUMPSHIP"
+    },
+    {
+        "id": 77740,
+        "code": "UMR-31",
+        "status": "Out of Svc",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "DRONE"
+    },
+    {
+        "id": 77746,
+        "code": "H-205DY",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "HELO"
+    },
+    {
+        "id": 77803,
+        "code": "T-41",
+        "status": "Out of Svc",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "HEAVY AIRTANKER"
+    },
+    {
+        "id": 128577,
+        "code": "9504",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "SIS OVEHD"
+    },
+    {
+        "id": 77626,
+        "code": "FT31",
+        "status": "Out of Svc",
+        "location": "SCOTT ST EAST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FUELS 31"
+    },
+    {
+        "id": 112300,
+        "code": "E655",
+        "status": "Out of Svc",
+        "location": "CRESCENT",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 655"
+    },
+    {
+        "id": 77058,
+        "code": "E653",
+        "status": "Out of Svc",
+        "location": "CRESCENT",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 653"
+    },
+    {
+        "id": 77119,
+        "code": "C501",
+        "status": "Out of Svc",
+        "location": "CRESCENT",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "CREW 501"
+    },
+    {
+        "id": 77704,
+        "code": "BC53",
+        "status": "Out of Svc",
+        "location": "CRESCENT",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FUELS PLANNER"
+    },
+    {
+        "id": 77139,
+        "code": "9503",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FOREST OFFICER"
+    },
+    {
+        "id": 77022,
+        "code": "E636",
+        "status": "Out of Svc",
+        "location": "SCOTT ST WEST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 636"
+    },
+    {
+        "id": 77103,
+        "code": "BC-5121",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO"
+    },
+    {
+        "id": 77749,
+        "code": "T-804",
+        "status": "Out of Svc",
+        "location": "MADRAS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "SEAT"
+    },
+    {
+        "id": 77029,
+        "code": "WT231",
+        "status": "Out of Svc",
+        "location": "SCOTT ST EAST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "WATER TENDER 231"
+    },
+    {
+        "id": 77066,
+        "code": "OPS31",
+        "status": "Out of Svc",
+        "location": "SCOTT ST EAST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "OPERATIONS 31"
+    },
+    {
+        "id": 77043,
+        "code": "C401B",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "CREW 401 BRAVO"
+    },
+    {
+        "id": 77024,
+        "code": "E638",
+        "status": "Out of Svc",
+        "location": "SCOTT ST EAST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 638"
+    },
+    {
+        "id": 77084,
+        "code": "E-5621",
+        "status": "Out of Svc",
+        "location": "MAUPIN",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 5621"
+    },
+    {
+        "id": 77083,
+        "code": "E-5420",
+        "status": "Responding",
+        "location": "MADRAS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 5420"
+    },
+    {
+        "id": 116630,
+        "code": "BC17",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO"
+    },
+    {
+        "id": 105559,
+        "code": "AA-621",
+        "status": "Out of Svc",
+        "location": "BEND",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AIR ATTACK 721TB"
+    },
+    {
+        "id": 77090,
+        "code": "E-5628",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 5628"
+    },
+    {
+        "id": 77081,
+        "code": "OPS13",
+        "status": "Responding",
+        "location": "MADRAS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "OPERATIONS"
+    },
+    {
+        "id": 77077,
+        "code": "DV-1",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "DIVISION 1"
+    },
+    {
+        "id": 77075,
+        "code": "E619",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 619"
+    },
+    {
+        "id": 77128,
+        "code": "FT53",
+        "status": "Out of Svc",
+        "location": "CRESCENT",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FUELS 53"
+    },
+    {
+        "id": 77777,
+        "code": "H-17FH",
+        "status": "Out of Svc",
+        "location": "BEND",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "H-17FH"
+    },
+    {
+        "id": 77041,
+        "code": "C401",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "CREW 401"
+    },
+    {
+        "id": 77697,
+        "code": "J-41",
+        "status": "Out of Svc",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "JUMP 41"
+    },
+    {
+        "id": 77086,
+        "code": "E-5624",
+        "status": "Out of Svc",
+        "location": "MADRAS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 5624"
+    },
+    {
+        "id": 77644,
+        "code": "N-979CT",
+        "status": "Out of Svc",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "LEAD PLANE 979CT"
+    },
+    {
+        "id": 77071,
+        "code": "E5613",
+        "status": "Out of Svc",
+        "location": "DAYVILLE",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 613"
+    },
+    {
+        "id": 77484,
+        "code": "N-556MC",
+        "status": "Out of Svc",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "KING AIR - N556MC"
+    },
+    {
+        "id": 77285,
+        "code": "FT14",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FUELS 14"
+    },
+    {
+        "id": 77126,
+        "code": "FT32",
+        "status": "Out of Svc",
+        "location": "PHIL'S TRAILHEAD",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FUELS 32"
+    },
+    {
+        "id": 77040,
+        "code": "C302B",
+        "status": "Out of Svc",
+        "location": "SCOTT ST WEST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "CREW 302 BRAVO"
+    },
+    {
+        "id": 77034,
+        "code": "E640",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 640"
+    },
+    {
+        "id": 128583,
+        "code": "AA0KB",
+        "status": "Out of Svc",
+        "location": "SUNRIVER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AIT ATTACK 0KB"
+    },
+    {
+        "id": 77268,
+        "code": "E9564",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 9564"
+    },
+    {
+        "id": 77203,
+        "code": "FT15",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FUELS 15"
+    },
+    {
+        "id": 77057,
+        "code": "E652",
+        "status": "Out of Svc",
+        "location": "CRESCENT",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 652"
+    },
+    {
+        "id": 77283,
+        "code": "FT55",
+        "status": "Out of Svc",
+        "location": "CRESCENT",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FUELS 55"
+    },
+    {
+        "id": 77036,
+        "code": "PT41",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "PREVENTION 41"
+    },
+    {
+        "id": 77485,
+        "code": "E9541",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINIE 9541"
+    },
+    {
+        "id": 77411,
+        "code": "C1",
+        "status": "Out of Svc",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "REDMOND IHC"
+    },
+    {
+        "id": 77732,
+        "code": "J-42",
+        "status": "Out of Svc",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "SMOKEJUMPER AIRCRAFT"
+    },
+    {
+        "id": 77110,
+        "code": "C101",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "CREW 101"
+    },
+    {
+        "id": 77748,
+        "code": "T-829",
+        "status": "Out of Svc",
+        "location": "MADRAS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "SEAT"
+    },
+    {
+        "id": 77116,
+        "code": "C301",
+        "status": "Out of Svc",
+        "location": "SCOTT ST EAST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "CREW 301"
+    },
+    {
+        "id": 77445,
+        "code": "BC42",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO FUELS"
+    },
+    {
+        "id": 77559,
+        "code": "BC5113",
+        "status": "Out of Svc",
+        "location": "DAYVILLE",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO"
+    },
+    {
+        "id": 77047,
+        "code": "OPS32",
+        "status": "DO OutSvc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "OPERATIONS 32"
+    },
+    {
+        "id": 77068,
+        "code": "DV-3",
+        "status": "Out of Svc",
+        "location": "PHIL'S TRAILHEAD",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "DIVISION 3"
+    },
+    {
+        "id": 77144,
+        "code": "BC51",
+        "status": "Out of Svc",
+        "location": "BEND",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO"
+    },
+    {
+        "id": 77645,
+        "code": "BC-5120",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "BLM FUELS SPECIALIST"
+    },
+    {
+        "id": 77751,
+        "code": "FC-91",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE ODF",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ODF FUELS CREW"
+    },
+    {
+        "id": 77093,
+        "code": "E9161",
+        "status": "Available",
+        "location": "THE DALLES, OR",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 9161"
+    },
+    {
+        "id": 77133,
+        "code": "9102",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE ODF",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AUF"
+    },
+    {
+        "id": 77096,
+        "code": "E9561",
+        "status": "Out of Svc",
+        "location": "MADRAS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 9561"
+    },
+    {
+        "id": 77744,
+        "code": "E-5423",
+        "status": "Out of Svc",
+        "location": "MADRAS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 5423"
+    },
+    {
+        "id": 77745,
+        "code": "AA-0TW",
+        "status": "Out of Svc",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AIR ATTACK N840TW"
+    },
+    {
+        "id": 77080,
+        "code": "OPS12",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "OPERATIONS"
+    },
+    {
+        "id": 77530,
+        "code": "N-160Z",
+        "status": "Out of Svc",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "KODIAK 160Z"
+    },
+    {
+        "id": 77065,
+        "code": "BC32",
+        "status": "Out of Svc",
+        "location": "SCOTT ST WEST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO"
+    },
+    {
+        "id": 77031,
+        "code": "PT31",
+        "status": "Out of Svc",
+        "location": "SCOTT ST EAST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "PREVENTION 31"
+    },
+    {
+        "id": 77238,
+        "code": "DV-5",
+        "status": "Out of Svc",
+        "location": "CRESCENT",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "DIVISION 5"
+    },
+    {
+        "id": 77212,
+        "code": "EBLO",
+        "status": "Out of Svc",
+        "location": "BEND",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "EAST BUTTE LO"
+    },
+    {
+        "id": 77038,
+        "code": "D231",
+        "status": "Out of Svc",
+        "location": "SUNRIVER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "DOZER 231"
+    },
+    {
+        "id": 77248,
+        "code": "BC14",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO FUELS"
+    },
+    {
+        "id": 77291,
+        "code": "B61",
+        "status": "Out of Svc",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ASM"
+    },
+    {
+        "id": 77210,
+        "code": "LBLO",
+        "status": "Out of Svc",
+        "location": "LAVA BUTTE LO",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "LAVA BUTTE LO"
+    },
+    {
+        "id": 77217,
+        "code": "AMLO",
+        "status": "Out of Svc",
+        "location": "DAYVILLE",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ALDRITCH MTN LO"
+    },
+    {
+        "id": 77104,
+        "code": "BC-5122",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO"
+    },
+    {
+        "id": 77219,
+        "code": "WMLO",
+        "status": "Out of Svc",
+        "location": "WOLF MT LOOKOUT",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "WOLF MOUNTAIN LO"
+    },
+    {
+        "id": 77207,
+        "code": "HBLO",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "HENKLE BUTTE LOOKOUT"
+    },
+    {
+        "id": 77208,
+        "code": "RMLO",
+        "status": "Out of Svc",
+        "location": "ROUND MT LO",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ROUND MOUNTAIN LO"
+    },
+    {
+        "id": 77475,
+        "code": "E9552",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 9552"
+    },
+    {
+        "id": 77277,
+        "code": "BC15",
+        "status": "Out of Svc",
+        "location": "BEND",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO FUELS"
+    },
+    {
+        "id": 77521,
+        "code": "E9164",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE ODF",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 9164"
+    },
+    {
+        "id": 77067,
+        "code": "BC31",
+        "status": "Committed",
+        "location": "SCOTT ST WEST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO"
+    },
+    {
+        "id": 77216,
+        "code": "TPLO",
+        "status": "Out of Svc",
+        "location": "MAURIES",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "TOWER POINT LO"
+    },
+    {
+        "id": 77073,
+        "code": "E616",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 616"
+    },
+    {
+        "id": 77206,
+        "code": "BBLO",
+        "status": "Out of Svc",
+        "location": "HWY242 CORRIDOR",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "BLACK BUTTE LOOKOUT"
+    },
+    {
+        "id": 77124,
+        "code": "BC34",
+        "status": "Out of Svc",
+        "location": "SCOTT ST WEST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO FUELS"
+    },
+    {
+        "id": 77102,
+        "code": "DV-5102",
+        "status": "Out of Svc",
+        "location": "DAYVILLE",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "DIVISION 2"
+    },
+    {
+        "id": 77209,
+        "code": "OBLO",
+        "status": "Out of Svc",
+        "location": "CRESCENT",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ODELL BUTTE LO"
+    },
+    {
+        "id": 77089,
+        "code": "E-5427",
+        "status": "Returning",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 5427"
+    },
+    {
+        "id": 77279,
+        "code": "BC52",
+        "status": "DO OutSvc",
+        "location": "CRESCENT",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO FUELS"
+    },
+    {
+        "id": 77211,
+        "code": "SBLO",
+        "status": "Out of Svc",
+        "location": "22 ROAD",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "SPRING BUTTE LO"
+    },
+    {
+        "id": 77444,
+        "code": "COIDC",
+        "status": "In Service",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "DISPATCH CENTER IA"
+    },
+    {
+        "id": 77082,
+        "code": "PT11",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "PREVENTION 11"
+    },
+    {
+        "id": 77088,
+        "code": "E-5626",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 5626"
+    },
+    {
+        "id": 77768,
+        "code": "T-105",
+        "status": "Out of Svc",
+        "location": "MADRAS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "HEAVY AIRTANKER"
+    },
+    {
+        "id": 77201,
+        "code": "FT11",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FUELS 11"
+    },
+    {
+        "id": 77202,
+        "code": "FT13",
+        "status": "Responding",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FUELS 13"
+    },
+    {
+        "id": 77025,
+        "code": "C302",
+        "status": "Out of Svc",
+        "location": "SCOTT ST WEST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "CREW 302"
+    },
+    {
+        "id": 105560,
+        "code": "H-205PT",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "TYPE 2 HELICOPTER"
+    },
+    {
+        "id": 77059,
+        "code": "E331",
+        "status": "Out of Svc",
+        "location": "SCOTT ST EAST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 331"
+    },
+    {
+        "id": 77030,
+        "code": "D230",
+        "status": "In Service",
+        "location": "BEND",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "DOZER 230"
+    },
+    {
+        "id": 77675,
+        "code": "BC36",
+        "status": "Out of Svc",
+        "location": "SCOTT ST EAST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "BATTALION FUELS"
+    },
+    {
+        "id": 77063,
+        "code": "PT51",
+        "status": "Out of Svc",
+        "location": "BEND",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "PREVENTION 51"
+    },
+    {
+        "id": 77064,
+        "code": "OPS51",
+        "status": "DO OutSvc",
+        "location": "CRESCENT",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "OPERATIONS 51"
+    },
+    {
+        "id": 77050,
+        "code": "FT41",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FUELS 41"
+    },
+    {
+        "id": 77138,
+        "code": "9502",
+        "status": "DO OutSvc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AUF"
+    },
+    {
+        "id": 77278,
+        "code": "E635",
+        "status": "Out of Svc",
+        "location": "SCOTT ST EAST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 635"
+    },
+    {
+        "id": 77087,
+        "code": "E-5625",
+        "status": "Responding",
+        "location": "MADRAS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 5625"
+    },
+    {
+        "id": 77094,
+        "code": "E9162",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE ODF",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 9162"
+    },
+    {
+        "id": 77092,
+        "code": "E9160",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE ODF",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 9160"
+    },
+    {
+        "id": 77095,
+        "code": "D91",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE ODF",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "DOZER 91"
+    },
+    {
+        "id": 77023,
+        "code": "E637",
+        "status": "Out of Svc",
+        "location": "SCOTT ST WEST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 637"
+    },
+    {
+        "id": 77085,
+        "code": "E-5422",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE BLM",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 5422"
+    },
+    {
+        "id": 77039,
+        "code": "FT34",
+        "status": "Out of Svc",
+        "location": "SCOTT ST WEST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "FUELS 34"
+    },
+    {
+        "id": 77614,
+        "code": "J-45",
+        "status": "Out of Svc",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "Sherpa -N145Z"
+    },
+    {
+        "id": 77046,
+        "code": "OPS41",
+        "status": "DO OutSvc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "OPERATIONS 41"
+    },
+    {
+        "id": 77060,
+        "code": "E332",
+        "status": "Out of Svc",
+        "location": "BEND",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 332"
+    },
+    {
+        "id": 77739,
+        "code": "E633",
+        "status": "Out of Svc",
+        "location": "SCOTT ST EAST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 633"
+    },
+    {
+        "id": 77027,
+        "code": "E612",
+        "status": "On Scene",
+        "location": "MADRAS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 612"
+    },
+    {
+        "id": 77070,
+        "code": "E5415",
+        "status": "Out of Svc",
+        "location": "DAYVILLE",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 415"
+    },
+    {
+        "id": 77483,
+        "code": "BC12",
+        "status": "On Scene",
+        "location": "MADRAS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "AFMO"
+    },
+    {
+        "id": 77074,
+        "code": "E618",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 618"
+    },
+    {
+        "id": 77218,
+        "code": "PBLO",
+        "status": "Out of Svc",
+        "location": "PISGAH BUTTE LO",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "PISGAH BUTTE LO"
+    },
+    {
+        "id": 77069,
+        "code": "E317",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 317"
+    },
+    {
+        "id": 77213,
+        "code": "SMLO",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE FS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "STEPHENSON MTN LO"
+    },
+    {
+        "id": 77504,
+        "code": "E341",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 341"
+    },
+    {
+        "id": 77097,
+        "code": "E9562",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 9562"
+    },
+    {
+        "id": 77451,
+        "code": "AA-601",
+        "status": "Out of Svc",
+        "location": "REDMOND AIR CENTER",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "N55WJ"
+    },
+    {
+        "id": 77061,
+        "code": "E634",
+        "status": "Out of Svc",
+        "location": "SCOTT ST EAST",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 634"
+    },
+    {
+        "id": 77205,
+        "code": "C955",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "CREW 955"
+    },
+    {
+        "id": 77342,
+        "code": "E9560",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 9560"
+    },
+    {
+        "id": 77707,
+        "code": "E641",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 641"
+    },
+    {
+        "id": 77091,
+        "code": "E9140",
+        "status": "Out of Svc",
+        "location": "PRINEVILLE ODF",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 9140"
+    },
+    {
+        "id": 77098,
+        "code": "E9563",
+        "status": "Out of Svc",
+        "location": "SISTERS",
+        "is_public": true,
+        "retrieved": "2023-08-30T05:04:20.396281+00:00",
+        "description": "ENGINE 9563"
+    }
+]

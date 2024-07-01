@@ -1,0 +1,1270 @@
+[
+    {
+        "data": [
+            {
+                "ic": null,
+                "date": "2023-07-19T14:42:38.998",
+                "name": "0494 DUST NW",
+                "type": "N/A",
+                "uuid": "004d0bbc-d66f-42b1-87de-46618ae2f544",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "494",
+                "fire_num": null,
+                "latitude": "43.809400",
+                "location": null,
+                "longitude": "121.959000",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"494\", \"fire_code\": null, \"wfdssunit\": \"ORDEF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-06-30T17:21:53.149",
+                "name": "OCHOCO SEVERITY 2023",
+                "type": "Resource Order",
+                "uuid": "03f1ee61-3b3f-40b5-92a1-73cf0efbd77a",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "354",
+                "fire_num": null,
+                "latitude": null,
+                "location": null,
+                "longitude": null,
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"354\", \"fire_code\": \"1111\", \"wfdssunit\": \"OROCF\", \"fs_job_code\": \"S6\", \"fs_override\": \"0607\", \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-08-18T07:50:02.766",
+                "name": "0690 EICC SUPPORT",
+                "type": "Miscellaneous",
+                "uuid": "0465b17e-f436-4c47-99e4-e79f22cfd76d",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "690",
+                "fire_num": null,
+                "latitude": "44.057408",
+                "location": null,
+                "longitude": "123.085928",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"690\", \"fire_code\": null, \"wfdssunit\": \"ORCOC\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "FOEY",
+                "date": "2023-08-25T13:41:42.098",
+                "name": "0724 EICC 410",
+                "type": "Smoke Check",
+                "uuid": "135d164a-4270-457f-9d05-bdd3c5de3466",
+                "acres": "0.1",
+                "fuels": "TIMBER, DEAD/DOWN",
+                "inc_num": "724",
+                "fire_num": null,
+                "latitude": "43.968083",
+                "location": null,
+                "longitude": "121.863533",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": \"2023-08-26T17:08:00\", \"control\": \"2023-08-28T13:35:00\"}",
+                "fiscal_data": "{\"inc_num\": \"724\", \"fire_code\": null, \"wfdssunit\": \"ORDEF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-07-12T13:27:29.82",
+                "name": "GEO MILLICAN BLASTING 0454 RV",
+                "type": "Miscellaneous",
+                "uuid": "18e921d6-fe2d-4901-a0cf-042cfaf922b2",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "454",
+                "fire_num": null,
+                "latitude": "43.843220",
+                "location": "",
+                "longitude": "120.707169",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"454\", \"fire_code\": null, \"wfdssunit\": \"ORPRD\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-07-01T13:33:42.969",
+                "name": "DESCHUTES ABC MISC 2023",
+                "type": "Resource Order",
+                "uuid": "2a045228-b0cc-4303-80a6-866fc9ed098a",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "359",
+                "fire_num": null,
+                "latitude": null,
+                "location": null,
+                "longitude": null,
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"359\", \"fire_code\": null, \"wfdssunit\": \"ORDEF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-08-07T15:50:38.893",
+                "name": "WSA Support",
+                "type": "Resource Order",
+                "uuid": "2b78f99b-65b7-4eea-8e97-1c976198df27",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "616",
+                "fire_num": null,
+                "latitude": null,
+                "location": null,
+                "longitude": null,
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"616\", \"fire_code\": null, \"wfdssunit\": \"ORWSA\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-01-03T15:57:33",
+                "name": "FACILITY ISSUES 2023",
+                "type": "Miscellaneous",
+                "uuid": "34bce70a-dc1b-4a3f-bcab-ca2666378f70",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "9",
+                "fire_num": null,
+                "latitude": "44.260570",
+                "location": "",
+                "longitude": "121.148900",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"9\", \"fire_code\": \"\", \"wfdssunit\": \"ORCOC\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-09-15T10:21:00",
+                "name": "0806 NW",
+                "type": "Wildfire",
+                "uuid": "3723a6f2-2d1d-47c2-8cab-0c2435db697d",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "806",
+                "fire_num": null,
+                "latitude": "44.058783",
+                "location": null,
+                "longitude": "121.413939",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"806\", \"fire_code\": null, \"wfdssunit\": \"ORDEF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-06-07T08:23:25.916",
+                "name": "WSA SUPPORT 0215",
+                "type": "Resource Order",
+                "uuid": "3be4fe1b-70a3-40a7-a536-5cd4631375ab",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "215",
+                "fire_num": null,
+                "latitude": "44.849700",
+                "location": null,
+                "longitude": "121.401000",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"215\", \"fire_code\": null, \"wfdssunit\": \"ORWSA\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2022-04-27T08:37:35",
+                "name": "JACKSON RX 0111 PR",
+                "type": "Prescribed Fire",
+                "uuid": "3d73f06b-e872-46bc-bf49-35868afa4421",
+                "acres": "1",
+                "fuels": null,
+                "inc_num": "111",
+                "fire_num": null,
+                "latitude": "44.343870",
+                "location": "",
+                "longitude": "120.034500",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"111\", \"fire_code\": \"\", \"wfdssunit\": \"OROCF\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": "BAXTER",
+                "date": "2023-09-15T11:12:36.205",
+                "name": "0807 CS",
+                "type": "Wildfire",
+                "uuid": "3d9bf137-01c1-4d5b-a20d-cd2be863eda7",
+                "acres": "0.1",
+                "fuels": "PINE DUFF",
+                "inc_num": "807",
+                "fire_num": null,
+                "latitude": "44.302383",
+                "location": null,
+                "longitude": "121.608867",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": \"2023-09-17T13:26:00\", \"contain\": \"2023-09-15T11:13:00\", \"control\": \"2023-09-15T11:55:00\"}",
+                "fiscal_data": "{\"inc_num\": \"807\", \"fire_code\": null, \"wfdssunit\": \"ORDEF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "TORLAND  ",
+                "date": "2023-07-28T19:28:00",
+                "name": "0548 RV",
+                "type": "Wildfire",
+                "uuid": "47d5bc49-dc2f-43bd-b1ac-b40321e62409",
+                "acres": "0.1",
+                "fuels": null,
+                "inc_num": "548",
+                "fire_num": "",
+                "latitude": "44.291817",
+                "location": "15 16 4",
+                "longitude": "120.826833",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": \"2023-07-28T19:58:00\", \"control\": \"2023-07-28T19:58:00\"}",
+                "fiscal_data": "{\"inc_num\": \"548\", \"fire_code\": \"QF5W\", \"wfdssunit\": \"ORPRD\", \"fs_job_code\": \"PN\", \"fs_override\": \"1522\", \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-09-17T18:43:51.831",
+                "name": "0815 OD PUR",
+                "type": "False Alarm",
+                "uuid": "4ab00eb0-fe51-4013-b712-ca310d91bc46",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "815",
+                "fire_num": null,
+                "latitude": "43.742182",
+                "location": null,
+                "longitude": "121.515813",
+                "resources": [
+                    null
+                ],
+                "webComment": "ODF NFCA REPORT Initiated GAC 9/18/23",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"815\", \"fire_code\": null, \"wfdssunit\": \"OR955S\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": \"955-066\", \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "PETERSON",
+                "date": "2023-08-17T12:21:09.859",
+                "name": "0685 PR PAULINA BUTTE",
+                "type": "Wildfire",
+                "uuid": "51da767c-0c35-411c-9549-f1c6ca57e21d",
+                "acres": "2.3",
+                "fuels": "TIMBER AND BRUSH",
+                "inc_num": "685",
+                "fire_num": null,
+                "latitude": "44.319867",
+                "location": null,
+                "longitude": "119.981967",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": \"2023-08-18T17:47:00\", \"control\": \"2023-09-08T14:45:00\"}",
+                "fiscal_data": "{\"inc_num\": \"685\", \"fire_code\": null, \"wfdssunit\": \"OROCF\", \"fs_job_code\": \"P6\", \"fs_override\": \"0607\", \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-01-03T14:03:20",
+                "name": "RIVERS 2023 PILES RX 0005 RV",
+                "type": "Prescribed Fire",
+                "uuid": "5902c670-daea-4e9a-b0c4-f7e4c2faf058",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "5",
+                "fire_num": null,
+                "latitude": "44.165200",
+                "location": "",
+                "longitude": "120.820300",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"5\", \"fire_code\": \"\", \"wfdssunit\": \"ORPRD\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-01-03T13:57:49",
+                "name": "CRESCENT 2023 PILES RX 0004 CR",
+                "type": "Prescribed Fire",
+                "uuid": "5c87010a-94fe-42f4-928c-874cf818a0da",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "4",
+                "fire_num": null,
+                "latitude": "43.539360",
+                "location": "",
+                "longitude": "121.732800",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"4\", \"fire_code\": \"\", \"wfdssunit\": \"ORDEF\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-09-12T12:19:44.5",
+                "name": "0794 PR JACKSON RX",
+                "type": "Prescribed Fire",
+                "uuid": "609e5cd8-ee23-4021-9b02-09c83759497a",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "794",
+                "fire_num": null,
+                "latitude": "44.377238",
+                "location": null,
+                "longitude": "120.026822",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"794\", \"fire_code\": null, \"wfdssunit\": \"OROCF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-01-03T15:59:11",
+                "name": "PHONE OUTAGES 2023",
+                "type": "Miscellaneous",
+                "uuid": "62ab5b52-5346-486e-99c6-9904f1652d9e",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "11",
+                "fire_num": null,
+                "latitude": "44.260570",
+                "location": "",
+                "longitude": "121.148900",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"11\", \"fire_code\": \"\", \"wfdssunit\": \"ORCOC\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-09-02T19:03:58.181",
+                "name": "SEPTEMBER FLIGHT FOLLOWING",
+                "type": "Aircraft",
+                "uuid": "6773aa5f-7932-4c29-a205-283188dd831f",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "766",
+                "fire_num": null,
+                "latitude": "44.260657",
+                "location": null,
+                "longitude": "121.149231",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"766\", \"fire_code\": null, \"wfdssunit\": \"ORDEF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-03-11T14:27:50",
+                "name": " 2023 Practice Jumps",
+                "type": "Aircraft",
+                "uuid": "711c2b61-577b-47ba-8b03-c54cbefb43cd",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "41",
+                "fire_num": null,
+                "latitude": "44.253890",
+                "location": "",
+                "longitude": "121.149500",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"41\", \"fire_code\": \"\", \"wfdssunit\": \"ORCOC\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-09-15T12:49:05.673",
+                "name": "0808 NE",
+                "type": "False Alarm",
+                "uuid": "716c33c1-43ca-42e8-a368-2c06d02624e0",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "808",
+                "fire_num": null,
+                "latitude": "43.759500",
+                "location": null,
+                "longitude": "121.455800",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"808\", \"fire_code\": null, \"wfdssunit\": \"ORPRD\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "LOEWEN",
+                "date": "2023-09-11T08:01:35.472",
+                "name": "0792 NE",
+                "type": "Wildfire",
+                "uuid": "71b65a36-b192-4c65-8a7b-221b6eed02d3",
+                "acres": "0.1",
+                "fuels": null,
+                "inc_num": "792",
+                "fire_num": null,
+                "latitude": "43.700050",
+                "location": null,
+                "longitude": "121.377583",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": \"2023-09-12T12:25:00\", \"contain\": \"2023-09-11T12:33:00\", \"control\": \"2023-09-11T12:33:00\"}",
+                "fiscal_data": "{\"inc_num\": \"792\", \"fire_code\": \"QM5X\", \"wfdssunit\": \"ORDEF\", \"fs_job_code\": \"P6\", \"fs_override\": \"0601\", \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-09-17T13:52:23.268",
+                "name": "0811 NW PUR",
+                "type": "Wildfire",
+                "uuid": "73677da1-4493-45ff-a07e-c87147336a87",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "811",
+                "fire_num": null,
+                "latitude": "44.014491",
+                "location": null,
+                "longitude": "121.733194",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"811\", \"fire_code\": null, \"wfdssunit\": \"ORDEF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-01-03T15:58:37",
+                "name": "EMPLOYEE TRACKING 2023",
+                "type": "Miscellaneous",
+                "uuid": "7672d7b7-8bcc-4821-bda9-5dc8a5b2f201",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "10",
+                "fire_num": null,
+                "latitude": "44.260570",
+                "location": "",
+                "longitude": "121.148900",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"10\", \"fire_code\": \"\", \"wfdssunit\": \"ORCOC\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-09-17T18:00:56.872",
+                "name": "0814 NW PUR",
+                "type": "Wildfire",
+                "uuid": "77248be4-f593-430d-9fa7-a96034f34e98",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "814",
+                "fire_num": null,
+                "latitude": "43.996803",
+                "location": null,
+                "longitude": "121.435833",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": \"2023-09-17T18:30:00\", \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"814\", \"fire_code\": null, \"wfdssunit\": \"ORDEF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-05-05T08:25:27",
+                "name": "BIG EDDY/WEST BEND RX 0092 NW",
+                "type": "Prescribed Fire",
+                "uuid": "784cd78f-d338-4fe8-81b8-26c6ca26c099",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "92",
+                "fire_num": null,
+                "latitude": "43.986320",
+                "location": "",
+                "longitude": "121.413800",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"92\", \"fire_code\": \"\", \"wfdssunit\": \"ORDEF\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-09-17T13:54:20.426",
+                "name": "0813 NW PUR",
+                "type": "Wildfire",
+                "uuid": "7a4cafe3-7586-4fd4-9a84-3dc6661736e2",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "813",
+                "fire_num": null,
+                "latitude": "44.035798",
+                "location": null,
+                "longitude": "121.420625",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"813\", \"fire_code\": null, \"wfdssunit\": \"ORDEF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-09-12T13:35:00",
+                "name": "0797 PR BEAR CREEK",
+                "type": "Wildfire",
+                "uuid": "7c4d0c16-8605-4b9c-901e-04fbefbf87fa",
+                "acres": "25",
+                "fuels": null,
+                "inc_num": "797",
+                "fire_num": null,
+                "latitude": "44.548833",
+                "location": "12 18 1, 2735/103 RD",
+                "longitude": "120.506500",
+                "resources": [
+                    "E616"
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": \"2023-09-17T17:39:00\", \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"797\", \"fire_code\": \"QM6W\", \"wfdssunit\": \"OROCF\", \"fs_job_code\": \"P6\", \"fs_override\": \"0607\", \"fiscal_comments\": \"951-011\", \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-05-02T09:32:46",
+                "name": "DEADLOG RX 0083 NE",
+                "type": "Prescribed Fire",
+                "uuid": "7cd8d147-8834-4472-842f-482610dd2463",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "83",
+                "fire_num": null,
+                "latitude": "43.623040",
+                "location": "",
+                "longitude": "120.921800",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"83\", \"fire_code\": \"\", \"wfdssunit\": \"ORDEF\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-04-10T09:39:11",
+                "name": "HELICOPTER TRAINING 2023",
+                "type": "Resource Order",
+                "uuid": "7eee5d09-ee44-4512-8bfd-527c3959b707",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "51",
+                "fire_num": null,
+                "latitude": "44.253770",
+                "location": "",
+                "longitude": "121.149400",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"51\", \"fire_code\": \"\", \"wfdssunit\": \"ORDEF\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"WFPP0923 (1309)\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-06-16T16:15:49.003",
+                "name": "WSA SUPPORT 0268",
+                "type": "Resource Order",
+                "uuid": "7f3b7d2c-ad70-4408-8b10-eacc2ce685e7",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "268",
+                "fire_num": null,
+                "latitude": "44.766808",
+                "location": null,
+                "longitude": "121.224174",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"268\", \"fire_code\": null, \"wfdssunit\": \"ORWSA\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-02-27T11:57:13",
+                "name": "037 R6 Aviation Support",
+                "type": "Aircraft",
+                "uuid": "836643a4-8355-41f7-83b8-84809f880b0f",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "37",
+                "fire_num": null,
+                "latitude": "44.254140",
+                "location": "",
+                "longitude": "121.150200",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"37\", \"fire_code\": \"\", \"wfdssunit\": \"ORCOC\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": "ZACH CAMERON",
+                "date": "2023-09-16T20:26:20.719",
+                "name": "0809 RV",
+                "type": "Wildfire",
+                "uuid": "847f7259-4cd9-413e-9bb9-5469ce3c6514",
+                "acres": "0.1",
+                "fuels": "G,B,JUNI",
+                "inc_num": "809",
+                "fire_num": null,
+                "latitude": "44.082000",
+                "location": "T17 R 15 SEC 22",
+                "longitude": "120.916000",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": \"2023-09-17T10:30:00\", \"contain\": \"2023-09-16T22:48:00\", \"control\": \"2023-09-17T10:30:00\"}",
+                "fiscal_data": "{\"inc_num\": \"809\", \"fire_code\": \"QNH6\", \"wfdssunit\": \"ORPRD\", \"fs_job_code\": \"PD\", \"fs_override\": \"1522\", \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-06-05T08:05:00",
+                "name": "WEST MAINTENANCE 5E FI-210 RX 0195 NW",
+                "type": "Prescribed Fire",
+                "uuid": "84a3c460-3e84-4af5-8424-3a920dafe9ad",
+                "acres": "5",
+                "fuels": null,
+                "inc_num": "195",
+                "fire_num": null,
+                "latitude": "43.872083",
+                "location": null,
+                "longitude": "121.481300",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"195\", \"fire_code\": null, \"wfdssunit\": \"ORDEF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-05-01T08:32:00",
+                "name": "ODIN NORTH RX 0081 NE",
+                "type": "Prescribed Fire",
+                "uuid": "92922736-8c2e-40ed-b54a-289884a60b30",
+                "acres": "0.1",
+                "fuels": null,
+                "inc_num": "81",
+                "fire_num": null,
+                "latitude": "43.720220",
+                "location": "",
+                "longitude": "121.417900",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"81\", \"fire_code\": \"\", \"wfdssunit\": \"ORDEF\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-09-14T21:19:05.329",
+                "name": "0805 CR",
+                "type": "False Alarm",
+                "uuid": "967ab59b-e8af-4ea1-b10f-b6a5682bfb52",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "805",
+                "fire_num": null,
+                "latitude": "43.670584",
+                "location": "",
+                "longitude": "121.770949",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"805\", \"fire_code\": null, \"wfdssunit\": \"ORDEF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-05-10T10:08:06",
+                "name": "WELCOME STATION RX 0099 NW",
+                "type": "Prescribed Fire",
+                "uuid": "a198162a-2038-447e-ab16-e138f2982e77",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "99",
+                "fire_num": null,
+                "latitude": "44.000840",
+                "location": "",
+                "longitude": "121.413500",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"99\", \"fire_code\": \"\", \"wfdssunit\": \"ORDEF\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-01-03T13:56:40",
+                "name": "PRAIRIE 2023 PILES RX 0003 PR",
+                "type": "Prescribed Fire",
+                "uuid": "a2b03b25-376f-4001-a262-2f9cc01919ec",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "3",
+                "fire_num": null,
+                "latitude": "44.309520",
+                "location": "",
+                "longitude": "120.274000",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"3\", \"fire_code\": \"\", \"wfdssunit\": \"OROCF\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-09-12T12:22:05.765",
+                "name": "0795 PR HEJ RX",
+                "type": "Prescribed Fire",
+                "uuid": "a354f817-34e1-443b-9de1-b3dcaa972c39",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "795",
+                "fire_num": null,
+                "latitude": "44.377565",
+                "location": null,
+                "longitude": "120.302538",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"795\", \"fire_code\": null, \"wfdssunit\": \"OROCF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "HARNDEN",
+                "date": "2023-07-06T15:19:00",
+                "name": "0407 PR ALDER CREEK",
+                "type": "Wildfire",
+                "uuid": "a5dce371-82ca-45e1-a609-0bd3b08bc2d7",
+                "acres": "1627",
+                "fuels": "GRASS, BRUSH",
+                "inc_num": "407",
+                "fire_num": null,
+                "latitude": "44.808417",
+                "location": "SERVICE CREEK",
+                "longitude": "119.958633",
+                "resources": [
+                    null
+                ],
+                "webComment": "ODF NON-STAT Report Initiated GAC 7/6/23",
+                "fire_status": "{\"out\": null, \"contain\": \"2023-07-14T09:12:00\", \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"407\", \"fire_code\": \"QB7F\", \"wfdssunit\": \"ORPRD\", \"fs_job_code\": \"PN\", \"fs_override\": \"1522\", \"fiscal_comments\": \"953-001\", \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-05-17T08:30:40",
+                "name": "5 MILE RX 0110 CR",
+                "type": "Prescribed Fire",
+                "uuid": "a74eb023-bfea-42ee-85b6-df8301abf8bd",
+                "acres": "1",
+                "fuels": null,
+                "inc_num": "110",
+                "fire_num": null,
+                "latitude": "43.359370",
+                "location": "",
+                "longitude": "121.769300",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"110\", \"fire_code\": \"\", \"wfdssunit\": \"ORDEF\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-03-23T14:21:21",
+                "name": "SMOKE JUMPER SUPPORT 2023",
+                "type": "Resource Order",
+                "uuid": "b06d251f-799e-4e7e-88e0-cf9c794f4322",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "46",
+                "fire_num": null,
+                "latitude": "44.253840",
+                "location": "",
+                "longitude": "121.149600",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"46\", \"fire_code\": \"\", \"wfdssunit\": \"ORCOC\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": "FENSKE",
+                "date": "2023-09-17T13:01:33.913",
+                "name": "0810 RV TROUT CREEK",
+                "type": "Wildfire",
+                "uuid": "b0ae9fcc-d725-4bfd-9c2a-35f9fb938747",
+                "acres": "1500",
+                "fuels": "GRASS/BRUSH",
+                "inc_num": "810",
+                "fire_num": null,
+                "latitude": "44.786682",
+                "location": "",
+                "longitude": "120.997398",
+                "resources": [
+                    "BC-5124",
+                    "E-5621",
+                    "C101",
+                    "E317"
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"810\", \"fire_code\": \"QNJ9\", \"wfdssunit\": \"ORPRD\", \"fs_job_code\": \"PN\", \"fs_override\": \"1522\", \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "Z. SPENCER ",
+                "date": "2023-08-29T14:26:00",
+                "name": "0748 RV COTTONWOOD",
+                "type": "Wildfire",
+                "uuid": "b76dcd3d-c326-4e4c-8877-7b376e550f40",
+                "acres": "2370",
+                "fuels": "GRASS/BRUSH",
+                "inc_num": "748",
+                "fire_num": "",
+                "latitude": "45.458500",
+                "location": "T01 R19 SEC 30",
+                "longitude": "120.482450",
+                "resources": [
+                    null
+                ],
+                "webComment": "ODF NON-STAT REPORT Initiated GAC 8/29/23",
+                "fire_status": "{\"out\": null, \"contain\": \"2023-09-02T15:58:00\", \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"748\", \"fire_code\": \"QL2D\", \"wfdssunit\": \"ORPRD\", \"fs_job_code\": \"PD\", \"fs_override\": \"1522\", \"fiscal_comments\": \"953-017\", \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-09-17T19:43:06.243",
+                "name": "0816 RV",
+                "type": "Wildfire",
+                "uuid": "c3fe5dbc-3717-4302-ba25-5b7a6214b3b4",
+                "acres": "0.1",
+                "fuels": null,
+                "inc_num": "816",
+                "fire_num": null,
+                "latitude": "44.112883",
+                "location": "t 17 r 13 sec 8",
+                "longitude": "121.191717",
+                "resources": [
+                    "E332"
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": \"2023-09-17T21:00:00\", \"control\": \"2023-09-17T21:00:00\"}",
+                "fiscal_data": "{\"inc_num\": \"816\", \"fire_code\": \"QNN5\", \"wfdssunit\": \"ORPRD\", \"fs_job_code\": \"PD\", \"fs_override\": \"1522\", \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-04-21T08:25:22",
+                "name": "DEER RIDGE RX 0060 OD",
+                "type": "Prescribed Fire",
+                "uuid": "c5d48e56-d5d4-4042-bfd1-14363e2ce397",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "60",
+                "fire_num": null,
+                "latitude": "44.638260",
+                "location": "",
+                "longitude": "121.055500",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"60\", \"fire_code\": \"\", \"wfdssunit\": \"OR951S\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-09-17T13:53:31.028",
+                "name": "0812 NW PUR",
+                "type": "Wildfire",
+                "uuid": "cbdf125e-12af-41ed-a07a-b54e9d466b1a",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "812",
+                "fire_num": null,
+                "latitude": "44.024410",
+                "location": null,
+                "longitude": "121.729497",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"812\", \"fire_code\": null, \"wfdssunit\": \"ORCOC\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-03-31T16:39:05",
+                "name": "REDMOND IHC SUPPORT 2023",
+                "type": "Resource Order",
+                "uuid": "d251e171-b397-4965-8004-87b63efe30f0",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "49",
+                "fire_num": null,
+                "latitude": "44.253770",
+                "location": "",
+                "longitude": "121.149400",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"49\", \"fire_code\": \"\", \"wfdssunit\": \"ORDEF\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-09-06T08:01:13.683",
+                "name": "0785 PR",
+                "type": "Wildfire",
+                "uuid": "d3711148-1118-4469-80fd-8ccbe2a8dcb6",
+                "acres": "0.1",
+                "fuels": "BRUSH, TIMBER, GRASS",
+                "inc_num": "785",
+                "fire_num": null,
+                "latitude": "44.463033",
+                "location": "T13S R23E SEC 10",
+                "longitude": "119.940500",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": \"2023-09-06T15:17:00\", \"control\": \"2023-09-08T12:01:00\"}",
+                "fiscal_data": "{\"inc_num\": \"785\", \"fire_code\": \"QMT4\", \"wfdssunit\": \"OROCF\", \"fs_job_code\": \"P6\", \"fs_override\": \"0607\", \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-07-01T13:34:54.893",
+                "name": "OCHOCO ABC MISC 2023",
+                "type": "Resource Order",
+                "uuid": "d5347fc9-6adb-4f48-bb77-b63c0abbe466",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "360",
+                "fire_num": null,
+                "latitude": null,
+                "location": null,
+                "longitude": null,
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"360\", \"fire_code\": null, \"wfdssunit\": \"OROCF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "BROWN ",
+                "date": "2023-08-20T11:01:35.823",
+                "name": "0703 OD JUNIPER CREEK",
+                "type": "Wildfire",
+                "uuid": "d7d4485a-1d2c-44c0-9a83-951eb80f0052",
+                "acres": "106",
+                "fuels": null,
+                "inc_num": "703",
+                "fire_num": null,
+                "latitude": "44.528917",
+                "location": null,
+                "longitude": "121.416083",
+                "resources": [
+                    null
+                ],
+                "webComment": "ODF STAT REPORT INITIATED DLR 08/20/23",
+                "fire_status": "{\"out\": null, \"contain\": \"2023-08-25T13:53:00\", \"control\": \"2023-09-08T14:30:00\"}",
+                "fiscal_data": "{\"inc_num\": \"703\", \"fire_code\": \"QK20\", \"wfdssunit\": \"OR955S\", \"fs_job_code\": \"PN\", \"fs_override\": \"1522\", \"fiscal_comments\": \"955-052\", \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": "CONWAY",
+                "date": "2023-08-09T16:42:00",
+                "name": "0630 PR JERRY RIDGE",
+                "type": "Wildfire",
+                "uuid": "d7fd5165-5d0e-4785-9775-fdc7f20ee8cc",
+                "acres": "29",
+                "fuels": "BRUSH GRASS",
+                "inc_num": "630",
+                "fire_num": null,
+                "latitude": "44.549333",
+                "location": "SE OF HOG RIDGE, W OF HWY 19",
+                "longitude": "119.701333",
+                "resources": [
+                    null
+                ],
+                "webComment": "ODF NON-STAT REPORT Initiated JDICC 8/9/23",
+                "fire_status": "{\"out\": null, \"contain\": \"2023-08-13T15:49:00\", \"control\": \"2023-08-18T17:54:00\"}",
+                "fiscal_data": "{\"inc_num\": \"630\", \"fire_code\": \"QH8Z\", \"wfdssunit\": \"ORPRD\", \"fs_job_code\": \"PN\", \"fs_override\": \"1522\", \"fiscal_comments\": \"953-012\", \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-09-19T13:14:56.645",
+                "name": "0820 OD",
+                "type": "False Alarm",
+                "uuid": "e2816f0c-ca64-48ca-b507-ce6e91bdbed0",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "820",
+                "fire_num": null,
+                "latitude": "43.698376",
+                "location": "15991 LESLIE DR",
+                "longitude": "121.526584",
+                "resources": [
+                    "E9562"
+                ],
+                "webComment": "ODF NFCA REPORT Initiated GAC 9/19/23",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"820\", \"fire_code\": null, \"wfdssunit\": \"OR955S\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": \"955-068\", \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-09-18T23:58:13.408",
+                "name": "0818 NW",
+                "type": "Wildfire",
+                "uuid": "e84eff05-282a-4441-9772-6d8d1063ca3d",
+                "acres": "0.01",
+                "fuels": null,
+                "inc_num": "818",
+                "fire_num": null,
+                "latitude": "43.730907",
+                "location": "",
+                "longitude": "121.576488",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"818\", \"fire_code\": null, \"wfdssunit\": \"ORDEF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-08-16T11:31:11.839",
+                "name": "0679 RV",
+                "type": "Wildfire",
+                "uuid": "ea4dfd1a-8393-44b1-b130-a1a573f869fc",
+                "acres": "0.1",
+                "fuels": "WHEAT ",
+                "inc_num": "679",
+                "fire_num": null,
+                "latitude": "44.751000",
+                "location": null,
+                "longitude": "121.086867",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"679\", \"fire_code\": \"QJ7X\", \"wfdssunit\": \"ORPRD\", \"fs_job_code\": \"PN\", \"fs_override\": \"1522\", \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-07-21T19:48:00",
+                "name": "WSA Support 0504 (WSA-063)",
+                "type": "Miscellaneous",
+                "uuid": "ed575e17-f605-4766-ac38-0cc6435990e4",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "504",
+                "fire_num": null,
+                "latitude": "44.967983",
+                "location": "",
+                "longitude": "121.444817",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"504\", \"fire_code\": null, \"wfdssunit\": \"ORWSA\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-03-23T14:23:13",
+                "name": "SMOKE JUMPER RESUPPLY 2023",
+                "type": "Resource Order",
+                "uuid": "f446e3ed-d344-4980-b18f-7b280dcce8e8",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "47",
+                "fire_num": null,
+                "latitude": "44.253840",
+                "location": "",
+                "longitude": "121.149600",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"47\", \"fire_code\": \"\", \"wfdssunit\": \"ORCOC\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-09-18T10:40:05.245",
+                "name": "0817 OD",
+                "type": "False Alarm",
+                "uuid": "f52fab37-022f-44e5-ae2a-dfb587c555b8",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "817",
+                "fire_num": null,
+                "latitude": "43.753002",
+                "location": "",
+                "longitude": "121.525349",
+                "resources": [
+                    null
+                ],
+                "webComment": "ODF NFCA REPORT Initiated GAC 9/18/23",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"817\", \"fire_code\": null, \"wfdssunit\": \"OR955S\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": \"955-067\", \"state_fiscal_code\": null}"
+            },
+            {
+                "ic": null,
+                "date": "2023-01-03T15:56:52",
+                "name": "RADIO ISSUES 2023",
+                "type": "Miscellaneous",
+                "uuid": "f59da472-1af4-4816-88f0-3e4dca4f4c36",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "8",
+                "fire_num": null,
+                "latitude": "44.260570",
+                "location": "",
+                "longitude": "121.148900",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"8\", \"fire_code\": \"\", \"wfdssunit\": \"ORCOC\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-05-08T11:17:16",
+                "name": "ANNES BUTTE RX 0096 NW",
+                "type": "Prescribed Fire",
+                "uuid": "f69e2f5c-ab4b-4f1c-8bba-91a9707b3b5a",
+                "acres": "1",
+                "fuels": null,
+                "inc_num": "96",
+                "fire_num": null,
+                "latitude": "43.816290",
+                "location": "",
+                "longitude": "121.507000",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": \"2023-05-25T11:45:00\", \"control\": \"2023-05-25T11:45:00\"}",
+                "fiscal_data": "{\"inc_num\": \"96\", \"fire_code\": \"\", \"wfdssunit\": \"ORDEF\", \"fs_job_code\": \"NF\", \"fs_override\": \"0601\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-05-23T07:45:07",
+                "name": "ODF 1 RX 0132 CR",
+                "type": "Prescribed Fire",
+                "uuid": "fc429dfa-8fd8-4e47-b560-54f6cd37f6c7",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "132",
+                "fire_num": null,
+                "latitude": "43.406640",
+                "location": "",
+                "longitude": "121.633800",
+                "resources": [
+                    null
+                ],
+                "webComment": "",
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"132\", \"fire_code\": \"\", \"wfdssunit\": \"ORDEF\", \"fs_job_code\": \"\", \"fs_override\": \"\", \"fiscal_comments\": \"\", \"state_fiscal_code\": \"\"}"
+            },
+            {
+                "ic": null,
+                "date": "2023-05-24T07:49:00",
+                "name": "ROCKET RX 0136 NE",
+                "type": "Prescribed Fire",
+                "uuid": "fd9a52db-5e4e-4bb0-bf76-c62b12dbdf4e",
+                "acres": null,
+                "fuels": null,
+                "inc_num": "136",
+                "fire_num": null,
+                "latitude": "43.851583",
+                "location": "",
+                "longitude": "121.373583",
+                "resources": [
+                    null
+                ],
+                "webComment": null,
+                "fire_status": "{\"out\": null, \"contain\": null, \"control\": null}",
+                "fiscal_data": "{\"inc_num\": \"136\", \"fire_code\": null, \"wfdssunit\": \"ORDEF\", \"fs_job_code\": null, \"fs_override\": null, \"fiscal_comments\": null, \"state_fiscal_code\": null}"
+            }
+        ],
+        "retrieved": "2023-09-19T23:19:06.521235"
+    }
+]
