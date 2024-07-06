@@ -1,6 +1,8 @@
-let all_markers = []
-let wildfire_markers = []
-let current_markers = []
+let marker_values = {
+	10000: { radius: 10, fillColor: "#ff0000" },
+	1000: { radius: 8, fillColor: "#ff5555" },
+	500: { radius: 6, fillColor: "#ff7800" },
+}
 
 let display_headers = () => {
 	let main = document.getElementsByTagName("header")[0]
@@ -54,10 +56,10 @@ let display_map = (incidents, perimeters) => {
 		maxZoom: 19,
 		attribution: '&copy; <a href="https://www.google.com/permissions/geoguidelines.html" target="_blank">Google Maps</a> | <a href="https://data-nifc.opendata.arcgis.com/" target="_blank">NIFC</a>'
 	})
-        let osm_layer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                maxZoom: 19,
-                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> | <a href="https://data-nifc.opendata.arcgis.com/" target="_blank">NIFC</a>'
-        })
+	let osm_layer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		maxZoom: 19,
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> | <a href="https://data-nifc.opendata.arcgis.com/" target="_blank">NIFC</a>'
+	})
 	let map = L.map('map', {
 		center: [44.1, -121.25],
 		zoom: 8,
@@ -91,15 +93,22 @@ let display_map = (incidents, perimeters) => {
 
 	L.geoJSON(incidents, {
 		style: function(feature) {
-			if (feature.properties.IncidentSize > 1000) {
-				return {
-					fillColor: "#ff7800",
-					color: "#000",
-					weight: 2,
-					opacity: 1,
-					fillOpacity: 0.8
-				}
-			}
+			let vars = {}
+			let size = parseInt(feature.properties.IncidentSize)
+			if (size < 1000 || feature.properties.IncidentSize === null)
+				vars.radius = 6
+			else if (size < 5000)
+				vars.radius = 8
+			else if (size < 10000)
+				vars.radius = 10
+
+			let d = new Date(feature.properties.CreatedOnDateTime_dt)
+			let now = new Date()
+			if (now - d < 3600 * 12 * 1000)
+				vars.fillColor = "#ff0000"
+			else if (now - d < 3600 * 24 * 1000)
+				vars.fillColor = "#ff5555"
+			return vars
 		},
 		pointToLayer: function(feature, latlng) {
 			return L.circleMarker(latlng, smallMarkerOptions)
