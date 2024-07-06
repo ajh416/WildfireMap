@@ -50,11 +50,21 @@ let display_resources_table = (json) => {
 }
 
 let display_map = (incidents, perimeters) => {
-	let map = L.map('map').setView([44.1, -121.25], 10)
-	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-		maxZoom: 19,
-		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> | <a href="https://data-nifc.opendata.arcgis.com/" target="_blank">NIFC</a>'
-	}).addTo(map)
+	let sat_layer = L.tileLayer("https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}")
+        let osm_layer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> | <a href="https://data-nifc.opendata.arcgis.com/" target="_blank">NIFC</a>'
+        })
+	let map = L.map('map', {
+		center: [44.1, -121.25],
+		zoom: 8,
+		layers: [sat_layer, osm_layer]
+	})
+	let baseMaps = {
+		"Google Satellite": sat_layer,
+		"OpenStreetMap": osm_layer
+	}
+	L.control.layers(baseMaps).addTo(map);
 
 	L.geoJSON(perimeters).addTo(map)
 
@@ -68,8 +78,11 @@ let display_map = (incidents, perimeters) => {
 	};
 
 	function onEachFeature(feature, layer) {
+		let containment = feature.properties.PercentContained
+		if (containment === null)
+			containment = '0'
 		if (feature.properties && feature.properties.IncidentName) {
-			layer.bindPopup(`<b>Name: </b>${feature.properties.IncidentName}</br><b>Incident Size: </b>${feature.properties.IncidentSize} acres</br><b>Reported Date: </b>${new Date(feature.properties.CreatedOnDateTime_dt).toString()}</br><b>Last Updated: </b>${new Date(feature.properties.ModifiedOnDateTime_dt).toString()}`)
+			layer.bindPopup(`<b>Name: </b>${feature.properties.IncidentName}</br><b>Incident Size: </b>${feature.properties.IncidentSize} acres</br><b>Reported Date: </b>${new Date(feature.properties.CreatedOnDateTime_dt).toString()}</br><b>Last Updated: </b>${new Date(feature.properties.ModifiedOnDateTime_dt).toString()}</br><b>% Contained: </b>${containment}`)
 		}
 	}
 
@@ -93,6 +106,11 @@ let display_map = (incidents, perimeters) => {
 }
 
 window.addEventListener('DOMContentLoaded', async () => {
+	let main = document.getElementById("main")
+	let loading = document.createElement("h1")
+	loading.textContent = "Loading..."
+	main.appendChild(loading)
+
 	let response = await fetch("http://localhost:5000/api/incidents", { method: "GET", mode: "cors" })
 	if (!response.ok) {
 		throw new Error(`HTTP error! status: ${response.status}`);
@@ -103,6 +121,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 		throw new Error(`HTTP error! status: ${response.status}`);
 	}
 	const perimeters = await response.json();
+	main.removeChild(loading)
 	display_headers()
 	display_map(incidents, perimeters)
 });
