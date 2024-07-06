@@ -50,7 +50,10 @@ let display_resources_table = (json) => {
 }
 
 let display_map = (incidents, perimeters) => {
-	let sat_layer = L.tileLayer("https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}")
+	let sat_layer = L.tileLayer("https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}", {
+		maxZoom: 19,
+		attribution: '&copy; <a href="https://www.google.com/permissions/geoguidelines.html" target="_blank">Google Maps</a> | <a href="https://data-nifc.opendata.arcgis.com/" target="_blank">NIFC</a>'
+	})
         let osm_layer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 maxZoom: 19,
                 attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> | <a href="https://data-nifc.opendata.arcgis.com/" target="_blank">NIFC</a>'
@@ -61,7 +64,7 @@ let display_map = (incidents, perimeters) => {
 		layers: [sat_layer, osm_layer]
 	})
 	let baseMaps = {
-		"Google Satellite": sat_layer,
+		"Google Maps Satellite": sat_layer,
 		"OpenStreetMap": osm_layer
 	}
 	L.control.layers(baseMaps).addTo(map);
