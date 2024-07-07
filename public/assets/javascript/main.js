@@ -123,12 +123,12 @@ window.addEventListener('DOMContentLoaded', async () => {
 	loading.textContent = "Loading..."
 	main.appendChild(loading)
 
-	let response = await fetch("http://localhost:5000/api/incidents", { method: "GET", mode: "cors" })
+	let response = await fetch("http://192.168.0.156:5000/api/incidents", { method: "GET", mode: "cors" })
 	if (!response.ok) {
 		throw new Error(`HTTP error! status: ${response.status}`);
 	}
 	const incidents = await response.json();
-	response = await fetch("http://localhost:5000/api/perimeters", { method: "GET", mode: "cors" })
+	response = await fetch("http://192.168.0.156:5000/api/perimeters", { method: "GET", mode: "cors" })
 	if (!response.ok) {
 		throw new Error(`HTTP error! status: ${response.status}`);
 	}

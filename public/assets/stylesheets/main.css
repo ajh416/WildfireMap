@@ -1,9 +1,19 @@
-/* Set the size of the div element that contains the map */
-#map {
-    height: 800px;
-    width: 99%; /* The width is the width of the web page */
+#footer-link:visited {
+	color: blue;
 }
 
-#footer-link:visited {
-    color: blue;
+/* For phones and whatnot */
+@media (max-width: 1280px) { 
+	#map {
+		height: 1500px;
+		width: 100%;
+	}
+}
+
+/* For desktops */
+@media (min-width: 1280px) {
+	#map {
+		height: 850px;
+		width: 100%;
+	}
 }
