@@ -1,9 +1,3 @@
-let marker_values = {
-	10000: { radius: 10, fillColor: "#ff0000" },
-	1000: { radius: 8, fillColor: "#ff5555" },
-	500: { radius: 6, fillColor: "#ff7800" },
-}
-
 let display_headers = () => {
 	let main = document.getElementsByTagName("header")[0]
 	let subheader = document.createElement("h2")
@@ -79,16 +73,37 @@ let display_map = (incidents, perimeters, firms) => {
 		}
 	}
 
+	let mobile_markers = {
+		1000: 12,
+		5000: 14,
+		10000: 16,
+		100000: 17,
+	}
+	let desktop_markers = {
+		1000: 6,
+		5000: 8,
+		10000: 10,
+		100000: 11,
+	}
+
 	let inc = L.geoJSON(incidents, {
 		style: function(feature) {
 			let vars = {}
 			let size = parseInt(feature.properties.IncidentSize)
+			let it = {}
+			if (window.innerWidth < 1000)
+				it = mobile_markers
+			else
+				it = desktop_markers
+
 			if (size < 1000 || feature.properties.IncidentSize === null)
-				vars.radius = 6
+				vars.radius = it[1000]
 			else if (size < 5000)
-				vars.radius = 8
+				vars.radius = it[5000]
 			else if (size < 10000)
-				vars.radius = 10
+				vars.radius = it[10000]
+			else
+				vars.radius = it[100000]
 
 			let d = new Date(feature.properties.CreatedOnDateTime_dt)
 			let now = new Date()
@@ -117,17 +132,17 @@ window.addEventListener('DOMContentLoaded', async () => {
 	loading.textContent = "Loading..."
 	main.appendChild(loading)
 
-	let response = await fetch("http://192.168.0.156:5000/api/incidents", { method: "GET", mode: "cors" })
+	let response = await fetch("https://wildfire-map.com/api/incidents", { method: "GET", mode: "cors" })
 	if (!response.ok) {
 		throw new Error(`HTTP error! status: ${response.status}`);
 	}
 	const incidents = await response.json();
-	response = await fetch("http://192.168.0.156:5000/api/perimeters", { method: "GET", mode: "cors" })
+	response = await fetch("https://wildfire-map.com/api/perimeters", { method: "GET", mode: "cors" })
 	if (!response.ok) {
 		throw new Error(`HTTP error! status: ${response.status}`);
 	}
 	const perimeters = await response.json();
-	response = await fetch("http://192.168.0.156:5000/api/firms", { method: "GET", mode: "cors" })
+	response = await fetch("https://wildfire-map.com/api/firms", { method: "GET", mode: "cors" })
 	if (!response.ok) {
 		throw new Error(`HTTP error! status: ${response.status}`);
 	}
