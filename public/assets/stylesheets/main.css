@@ -2,6 +2,10 @@
 	color: blue;
 }
 
+#footer-link:visited {
+	color: blue;
+}
+
 /* For phones and whatnot */
 @media (max-width: 1280px) { 
 	#map {
