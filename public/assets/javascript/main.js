@@ -11,47 +11,7 @@ let display_headers = () => {
 	main.appendChild(subheader)
 }
 
-let display_resources_table = (json) => {
-	let table = document.createElement("table")
-	let table_body = document.createElement("tbody")
-
-	let header = table.createTHead()
-	let header_row = header.insertRow(-1)
-	let name = header_row.insertCell(0)
-	let description = header_row.insertCell(1)
-	let type = header_row.insertCell(2)
-	let status = header_row.insertCell(3)
-	let date = header_row.insertCell(4)
-
-	name.innerHTML = "Name"
-	description.innerHTML = "Description"
-	type.innerHTML = "Web Comment"
-	status.innerHTML = "Status"
-	date.innerHTML = "Date"
-
-	json[0].data.forEach((resource) => {
-
-		let row = table_body.insertRow(-1)
-		let name = row.insertCell(0)
-		let description = row.insertCell(1)
-		let type = row.insertCell(2)
-		let status = row.insertCell(3)
-		let date = row.insertCell(4)
-
-		name.innerHTML = resource.name
-		description.innerHTML = resource.type
-		type.innerHTML = resource.webComment
-		status.innerHTML = resource.fire_status
-		date.innerHTML = resource.date
-	})
-
-	let main = document.getElementById("main")
-	table.appendChild(table_body)
-	main.appendChild(table)
-	return json
-}
-
-let display_map = (incidents, perimeters) => {
+let display_map = (incidents, perimeters, firms) => {
 	let sat_layer = L.tileLayer("https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}", {
 		maxZoom: 19,
 		attribution: '&copy; <a href="https://www.google.com/permissions/geoguidelines.html" target="_blank">Google Maps</a> | <a href="https://data-nifc.opendata.arcgis.com/" target="_blank">NIFC</a>'
@@ -60,18 +20,48 @@ let display_map = (incidents, perimeters) => {
 		maxZoom: 19,
 		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> | <a href="https://data-nifc.opendata.arcgis.com/" target="_blank">NIFC</a>'
 	})
+
+	let firms_layer = L.geoJSON(firms, {
+		pointToLayer: function(_, latlng) {
+			return L.circleMarker(latlng, { radius: 6, fillColor: "#0000ff", color: "#000", weight: 1, opacity: 1, fillOpacity: 0.8 })
+		}
+	})
+
 	let map = L.map('map', {
 		center: [44.1, -121.25],
 		zoom: 8,
 		layers: [sat_layer, osm_layer]
 	})
+
+	let perim = L.geoJSON(perimeters, {
+		style: function(_) {
+			return { color: "#7777ff" }
+		}
+	}).addTo(map)
+
 	let baseMaps = {
 		"Google Maps Satellite": sat_layer,
 		"OpenStreetMap": osm_layer
 	}
-	L.control.layers(baseMaps).addTo(map);
+	let overlays = {
+		"NASA/NOAA FIRMS": firms_layer,
+		"Perimeters": perim,
+	};
+	L.control.layers(baseMaps, overlays).addTo(map);
 
-	L.geoJSON(perimeters).addTo(map)
+	/* Legend specific, from https://codepen.io/haakseth/pen/KQbjdO */
+	let legend = L.control({ position: "bottomleft" });
+
+	legend.onAdd = function(_) {
+		let div = L.DomUtil.create("div", "legend");
+		div.innerHTML += "<h4>Legend</h4>";
+		div.innerHTML += '<i style="background: #ff7800"></i><span>Incidents</span><br>';
+		div.innerHTML += '<i style="background: #7777ff"></i><span>Perimeters</span><br>';
+		div.innerHTML += '<i style="background: #0000ff"></i><span>NOAA/NASA FIRMS Heat Sources</span><br>';
+		return div;
+	};
+
+	legend.addTo(map);
 
 	let smallMarkerOptions = {
 		radius: 6,
@@ -133,7 +123,13 @@ window.addEventListener('DOMContentLoaded', async () => {
 		throw new Error(`HTTP error! status: ${response.status}`);
 	}
 	const perimeters = await response.json();
+	response = await fetch("http://192.168.0.156:5000/api/firms", { method: "GET", mode: "cors" })
+	if (!response.ok) {
+		throw new Error(`HTTP error! status: ${response.status}`);
+	}
+	const firms = await response.json();
+
 	main.removeChild(loading)
 	display_headers()
-	display_map(incidents, perimeters)
+	display_map(incidents, perimeters, firms)
 });
