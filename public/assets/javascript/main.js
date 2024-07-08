@@ -43,11 +43,7 @@ let display_map = (incidents, perimeters, firms) => {
 		"Google Maps Satellite": sat_layer,
 		"OpenStreetMap": osm_layer
 	}
-	let overlays = {
-		"NASA/NOAA FIRMS": firms_layer,
-		"Perimeters": perim,
-	}
-	L.control.layers(baseMaps, overlays).addTo(map)
+	
 
 	/* Legend specific, from https://codepen.io/haakseth/pen/KQbjdO */
 	let legend = L.control({ position: "bottomleft" })
@@ -55,7 +51,9 @@ let display_map = (incidents, perimeters, firms) => {
 	legend.onAdd = function(_) {
 		let div = L.DomUtil.create("div", "legend")
 		div.innerHTML += "<h4>Legend</h4>"
-		div.innerHTML += '<i style="background: #ff7800"></i><span>Incidents</span><br>'
+		div.innerHTML += '<i style="background: #ff7800"></i><span>Incidents >24hrs old</span><br>'
+		div.innerHTML += '<i style="background: #ff5555"></i><span>Incidents <24hrs old</span><br>'
+		div.innerHTML += '<i style="background: #ff0000"></i><span>Incidents <12hrs old</span><br>'
 		div.innerHTML += '<i style="background: #7777ff"></i><span>Perimeters</span><br>'
 		div.innerHTML += '<i style="background: #0000ff"></i><span>NOAA/NASA FIRMS Heat Sources</span><br>'
 		return div
@@ -81,7 +79,7 @@ let display_map = (incidents, perimeters, firms) => {
 		}
 	}
 
-	L.geoJSON(incidents, {
+	let inc = L.geoJSON(incidents, {
 		style: function(feature) {
 			let vars = {}
 			let size = parseInt(feature.properties.IncidentSize)
@@ -105,6 +103,12 @@ let display_map = (incidents, perimeters, firms) => {
 		},
 		onEachFeature: onEachFeature
 	}).addTo(map);
+	let overlays = {
+		"NASA/NOAA FIRMS": firms_layer,
+		"Perimeters": perim,
+		"Active Incidents": inc,
+	}
+	L.control.layers(baseMaps, overlays).addTo(map)
 }
 
 window.addEventListener('DOMContentLoaded', async () => {
