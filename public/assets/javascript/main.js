@@ -46,22 +46,22 @@ let display_map = (incidents, perimeters, firms) => {
 	let overlays = {
 		"NASA/NOAA FIRMS": firms_layer,
 		"Perimeters": perim,
-	};
-	L.control.layers(baseMaps, overlays).addTo(map);
+	}
+	L.control.layers(baseMaps, overlays).addTo(map)
 
 	/* Legend specific, from https://codepen.io/haakseth/pen/KQbjdO */
-	let legend = L.control({ position: "bottomleft" });
+	let legend = L.control({ position: "bottomleft" })
 
 	legend.onAdd = function(_) {
-		let div = L.DomUtil.create("div", "legend");
-		div.innerHTML += "<h4>Legend</h4>";
-		div.innerHTML += '<i style="background: #ff7800"></i><span>Incidents</span><br>';
-		div.innerHTML += '<i style="background: #7777ff"></i><span>Perimeters</span><br>';
-		div.innerHTML += '<i style="background: #0000ff"></i><span>NOAA/NASA FIRMS Heat Sources</span><br>';
-		return div;
-	};
+		let div = L.DomUtil.create("div", "legend")
+		div.innerHTML += "<h4>Legend</h4>"
+		div.innerHTML += '<i style="background: #ff7800"></i><span>Incidents</span><br>'
+		div.innerHTML += '<i style="background: #7777ff"></i><span>Perimeters</span><br>'
+		div.innerHTML += '<i style="background: #0000ff"></i><span>NOAA/NASA FIRMS Heat Sources</span><br>'
+		return div
+	}
 
-	legend.addTo(map);
+	legend.addTo(map)
 
 	let smallMarkerOptions = {
 		radius: 6,
@@ -70,14 +70,14 @@ let display_map = (incidents, perimeters, firms) => {
 		weight: 1,
 		opacity: 1,
 		fillOpacity: 0.8
-	};
+	}
 
 	function onEachFeature(feature, layer) {
 		let containment = feature.properties.PercentContained
 		if (containment === null)
 			containment = '0'
 		if (feature.properties && feature.properties.IncidentName) {
-			layer.bindPopup(`<b>Name: </b>${feature.properties.IncidentName}</br><b>Incident Size: </b>${feature.properties.IncidentSize} acres</br><b>Reported Date: </b>${new Date(feature.properties.CreatedOnDateTime_dt).toString()}</br><b>Last Updated: </b>${new Date(feature.properties.ModifiedOnDateTime_dt).toString()}</br><b>% Contained: </b>${containment}`)
+			layer.bindPopup(`<div id="popup-info"><b>Name: </b>${feature.properties.IncidentName}</br><b>Incident Size: </b>${feature.properties.IncidentSize} acres</br><b>Reported Date: </b>${new Date(feature.properties.CreatedOnDateTime_dt).toString()}</br><b>Last Updated: </b>${new Date(feature.properties.ModifiedOnDateTime_dt).toString()}</br><b>% Contained: </b>${containment}</div>`)
 		}
 	}
 
