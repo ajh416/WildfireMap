@@ -11,7 +11,6 @@ let csv_to_geojson = (csv) => {
 	let features = []
 	csv.split("\n").map((line) => {
 		let [latitude, longitude, bright_ti4, scan, track, acq_date, acq_time, satellite, instrument, confidence, version, bright_ti5, frp, daynight] = line.split(",")
-		if (latitude === "latitude") return
 		let coordinates = [parseFloat(longitude), parseFloat(latitude)]
 		if (isNaN(coordinates[0]) || isNaN(coordinates[1])) {
 			coordinates = [0, 0]
@@ -40,10 +39,7 @@ let csv_to_geojson = (csv) => {
 		}
 		features.push(feature)
 	})
-	noaa_firms = {
-		type: "FeatureCollection",
-		features: features
-	}
+	return {type: "FeatureCollection", features: features}
 }
 
 app.use(express.static('public'))
@@ -71,7 +67,14 @@ let get_incidents = async () => {
 	console.log("Fetching new incidents...")
 	// NIFC ArcGIS API for incidents
 	let response = await fetch("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson")
-	nifc_incidents = await response.json()
+	let temp = await response.json()
+	if (temp.features.length > 0) {
+		nifc_incidents = temp
+	} else {
+		setTimeout(get_incidents, 100)
+		return
+	}
+
 	// set a timer for 10 minutes
 	setTimeout(get_incidents, 20000 * 60)
 }
@@ -80,7 +83,14 @@ let get_perimeters = async () => {
 	console.log("Fetching new perimeters...")
 	// NIFC ArcGIS API
 	let response = await fetch("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters_Current/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson")
-	nifc_perimeters = await response.json()
+	let temp = await response.json()
+	if (temp.features.length > 0) {
+		nifc_perimeters = temp
+	} else {
+		setTimeout(get_perimeters, 100)
+		return
+	}
+
 	// set a timer for 30 minutes
 	setTimeout(get_perimeters, 45000 * 60)
 }
@@ -90,7 +100,15 @@ let get_noaa_firms = async () => {
 	// NOAA FIRMS API
 	let response = await fetch("https://firms.modaps.eosdis.nasa.gov/api/area/csv/7349994f446f64c565d38ce5a40e9c23/VIIRS_NOAA21_NRT/-160,-90,-90,90/1")
 	csv = await response.text()
-	csv_to_geojson(csv)
+	let temp = csv_to_geojson(csv)
+	if (temp.features.length > 0) {
+		noaa_firms = temp
+	}
+	else {
+		setTimeout(get_noaa_firms, 100)
+		return
+	}
+
 	// set a timer for 30 minutes
 	setTimeout(get_perimeters, 60000 * 60)
 }

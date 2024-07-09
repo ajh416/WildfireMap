@@ -15,12 +15,6 @@ let display_map = (incidents, perimeters, firms) => {
 		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> | <a href="https://data-nifc.opendata.arcgis.com/" target="_blank">NIFC</a>'
 	})
 
-	let firms_layer = L.geoJSON(firms, {
-		pointToLayer: function(_, latlng) {
-			return L.circleMarker(latlng, { radius: 6, fillColor: "#0000ff", color: "#000", weight: 1, opacity: 1, fillOpacity: 0.8 })
-		}
-	})
-
 	let map = L.map('map', {
 		center: [44.1, -121.25],
 		zoom: 8,
@@ -33,11 +27,16 @@ let display_map = (incidents, perimeters, firms) => {
 		}
 	}).addTo(map)
 
+	let firms_layer = L.geoJSON(firms, {
+		pointToLayer: function(_, latlng) {
+			return L.circleMarker(latlng, { radius: 6, fillColor: "#0000ff", color: "#000", weight: 1, opacity: 1, fillOpacity: 0.8 })
+		}
+	})
+
 	let baseMaps = {
 		"Google Maps Satellite": sat_layer,
 		"OpenStreetMap": osm_layer
 	}
-	
 
 	/* Legend specific, from https://codepen.io/haakseth/pen/KQbjdO */
 	let legend = L.control({ position: "bottomleft" })
@@ -53,7 +52,7 @@ let display_map = (incidents, perimeters, firms) => {
 		return div
 	}
 
-	legend.addTo(map)
+	//legend.addTo(map)
 
 	let smallMarkerOptions = {
 		radius: 6,
@@ -118,6 +117,7 @@ let display_map = (incidents, perimeters, firms) => {
 		},
 		onEachFeature: onEachFeature
 	}).addTo(map);
+	firms_layer.addTo(map)
 	let overlays = {
 		"NASA/NOAA FIRMS": firms_layer,
 		"Perimeters": perim,
@@ -146,6 +146,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 	if (!response.ok) {
 		throw new Error(`HTTP error! status: ${response.status}`);
 	}
+	
 	const firms = await response.json();
 
 	main.removeChild(loading)
