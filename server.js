@@ -68,7 +68,7 @@ let get_incidents = async () => {
 	// NIFC ArcGIS API for incidents
 	let response = await fetch("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson")
 	let temp = await response.json()
-	if (temp.features.length > 0) {
+	if (temp !== undefined && temp.features.length > 0) {
 		nifc_incidents = temp
 	} else {
 		setTimeout(get_incidents, 100)
@@ -84,7 +84,7 @@ let get_perimeters = async () => {
 	// NIFC ArcGIS API
 	let response = await fetch("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters_Current/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson")
 	let temp = await response.json()
-	if (temp.features.length > 0) {
+	if (temp !== undefined && temp.features.length > 0) {
 		nifc_perimeters = temp
 	} else {
 		setTimeout(get_perimeters, 100)
@@ -101,7 +101,7 @@ let get_noaa_firms = async () => {
 	let response = await fetch("https://firms.modaps.eosdis.nasa.gov/api/area/csv/7349994f446f64c565d38ce5a40e9c23/VIIRS_NOAA21_NRT/-160,-90,-90,90/1")
 	csv = await response.text()
 	let temp = csv_to_geojson(csv)
-	if (temp.features.length > 0) {
+	if (temp !== undefined && temp.features.length > 0) {
 		noaa_firms = temp
 	}
 	else {
