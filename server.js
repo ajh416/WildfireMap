@@ -37,7 +37,9 @@ let csv_to_geojson = (csv) => {
 				daynight: daynight
 			}
 		}
-		features.push(feature)
+
+		if (feature.geometry.coordinates != [0, 0])
+			features.push(feature)
 	})
 	return {type: "FeatureCollection", features: features}
 }

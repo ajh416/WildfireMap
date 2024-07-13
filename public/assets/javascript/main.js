@@ -43,6 +43,17 @@ let display_map = (incidents, perimeters, firms) => {
 	let firms_layer = L.geoJSON(firms, {
 		pointToLayer: function(_, latlng) {
 			return L.circleMarker(latlng, { radius: 6, fillColor: "#0000ff", color: "#000", weight: 1, opacity: 1, fillOpacity: 0.8 })
+		},
+		onEachFeature: function(feature, layer) {
+			if (feature.properties && feature.properties.acq_date) {
+				let brightness = feature.properties.bright
+				if (brightness === undefined)
+					brightness = "N/A"
+				let confidence = feature.properties.confidence
+				if (confidence === undefined)
+					confidence = "N/A"
+				layer.bindPopup(`<div id="popup-info"><b>Time: </b>${feature.properties.acq_date}</br><b>Brightness: </b>${brightness}</br><b>Confidence: </b>${confidence}`)
+			}
 		}
 	})
 
