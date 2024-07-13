@@ -1,3 +1,16 @@
+let mobile_markers = {
+	1000: 12,
+	5000: 14,
+	10000: 16,
+	100000: 17,
+}
+let desktop_markers = {
+	1000: 6,
+	5000: 8,
+	10000: 10,
+	100000: 11,
+}
+
 let display_headers = () => {
 	let main = document.getElementsByTagName("header")[0]
 	let subheader = document.createElement("h2")
@@ -52,7 +65,7 @@ let display_map = (incidents, perimeters, firms) => {
 		return div
 	}
 
-	//legend.addTo(map)
+	legend.addTo(map)
 
 	let smallMarkerOptions = {
 		radius: 6,
@@ -70,19 +83,6 @@ let display_map = (incidents, perimeters, firms) => {
 		if (feature.properties && feature.properties.IncidentName) {
 			layer.bindPopup(`<div id="popup-info"><b>Name: </b>${feature.properties.IncidentName}</br><b>Incident Size: </b>${feature.properties.IncidentSize} acres</br><b>Reported Date: </b>${new Date(feature.properties.CreatedOnDateTime_dt).toString()}</br><b>Last Updated: </b>${new Date(feature.properties.ModifiedOnDateTime_dt).toString()}</br><b>% Contained: </b>${containment}</div>`)
 		}
-	}
-
-	let mobile_markers = {
-		1000: 12,
-		5000: 14,
-		10000: 16,
-		100000: 17,
-	}
-	let desktop_markers = {
-		1000: 6,
-		5000: 8,
-		10000: 10,
-		100000: 11,
 	}
 
 	let inc = L.geoJSON(incidents, {
@@ -112,7 +112,7 @@ let display_map = (incidents, perimeters, firms) => {
 				vars.fillColor = "#ff5555"
 			return vars
 		},
-		pointToLayer: function(feature, latlng) {
+		pointToLayer: function(_, latlng) {
 			return L.circleMarker(latlng, smallMarkerOptions)
 		},
 		onEachFeature: onEachFeature
@@ -129,7 +129,7 @@ let display_map = (incidents, perimeters, firms) => {
 window.addEventListener('DOMContentLoaded', async () => {
 	let main = document.getElementById("main")
 	let loading = document.createElement("h1")
-	loading.textContent = "Loading..."
+	loading.textContent = "Loading incidents..."
 	main.appendChild(loading)
 
 	let response = await fetch("https://wildfire-map.com/api/incidents", { method: "GET", mode: "cors" })
@@ -137,16 +137,17 @@ window.addEventListener('DOMContentLoaded', async () => {
 		throw new Error(`HTTP error! status: ${response.status}`);
 	}
 	const incidents = await response.json();
+	loading.textContent = "Loading Perimeters..."
 	response = await fetch("https://wildfire-map.com/api/perimeters", { method: "GET", mode: "cors" })
 	if (!response.ok) {
 		throw new Error(`HTTP error! status: ${response.status}`);
 	}
 	const perimeters = await response.json();
+	loading.textContent = "Loading FIRMS..."
 	response = await fetch("https://wildfire-map.com/api/firms", { method: "GET", mode: "cors" })
 	if (!response.ok) {
 		throw new Error(`HTTP error! status: ${response.status}`);
 	}
-	
 	const firms = await response.json();
 
 	main.removeChild(loading)
