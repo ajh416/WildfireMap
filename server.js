@@ -98,7 +98,7 @@ let get_perimeters = async () => {
 let get_noaa_firms = async () => {
 	console.log("Fetching new noaa firms...")
 	// NOAA FIRMS API
-	let response = await fetch("https://firms.modaps.eosdis.nasa.gov/api/area/csv/7349994f446f64c565d38ce5a40e9c23/VIIRS_NOAA21_NRT/-160,-90,-90,90/1")
+	let response = await fetch("https://firms.modaps.eosdis.nasa.gov/api/area/csv/7349994f446f64c565d38ce5a40e9c23/VIIRS_NOAA21_NRT/-160,-90,-90,90/2")
 	csv = await response.text()
 	let temp = csv_to_geojson(csv)
 	if (temp !== undefined && temp.features.length > 0) {
