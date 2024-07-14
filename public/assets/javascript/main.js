@@ -46,13 +46,10 @@ let display_map = (incidents, perimeters, firms) => {
 		},
 		onEachFeature: function(feature, layer) {
 			if (feature.properties && feature.properties.acq_date) {
-				let brightness = feature.properties.bright
+				let brightness = feature.properties.bright_ti4
 				if (brightness === undefined)
 					brightness = "N/A"
-				let confidence = feature.properties.confidence
-				if (confidence === undefined)
-					confidence = "N/A"
-				layer.bindPopup(`<div id="popup-info"><b>Time: </b>${feature.properties.acq_date}</br><b>Brightness: </b>${brightness}</br><b>Confidence: </b>${confidence}`)
+				layer.bindPopup(`<div id="popup-info"><b>Time: </b>${feature.properties.acq_date} ${feature.properties.acq_time} UTC</br><b>Brightness: </b>${brightness}`)
 			}
 		}
 	})
@@ -89,7 +86,7 @@ let display_map = (incidents, perimeters, firms) => {
 
 	function onEachFeature(feature, layer) {
 		let containment = feature.properties.PercentContained
-		if (containment === null)
+		if (containment === null || containment === undefined)
 			containment = '0'
 		if (feature.properties && feature.properties.IncidentName) {
 			layer.bindPopup(`<div id="popup-info"><b>Name: </b>${feature.properties.IncidentName}</br><b>Incident Size: </b>${feature.properties.IncidentSize} acres</br><b>Reported Date: </b>${new Date(feature.properties.CreatedOnDateTime_dt).toString()}</br><b>Last Updated: </b>${new Date(feature.properties.ModifiedOnDateTime_dt).toString()}</br><b>% Contained: </b>${containment}</div>`)
@@ -134,7 +131,9 @@ let display_map = (incidents, perimeters, firms) => {
 		"Perimeters": perim,
 		"Active Incidents": inc,
 	}
-	L.control.layers(baseMaps, overlays).addTo(map)
+	let control = L.control.layers(baseMaps, overlays).addTo(map)
+	// disable FIRMS layer by default
+	control._map.removeLayer(firms_layer)
 }
 
 window.addEventListener('DOMContentLoaded', async () => {
@@ -160,6 +159,9 @@ window.addEventListener('DOMContentLoaded', async () => {
 		throw new Error(`HTTP error! status: ${response.status}`);
 	}
 	const firms = await response.json();
+	if (firms === undefined || firms === null || firms.length === 0) {
+		console.log("FIRMS data is null, when it shouldn't be...")
+	}
 
 	main.removeChild(loading)
 	display_headers()
