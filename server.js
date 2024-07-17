@@ -107,7 +107,7 @@ let get_perimeters = async () => {
 		return
 	}
 
-	// set a timer for 30 minutes
+	// set a timer for 45 minutes
 	setTimeout(get_perimeters, 60000 * 45)
 }
 
@@ -118,8 +118,6 @@ let get_noaa_firms = async () => {
 	try {
 	let response = await fetch("https://firms.modaps.eosdis.nasa.gov/api/area/csv/7349994f446f64c565d38ce5a40e9c23/VIIRS_NOAA21_NRT/-160,-90,-90,90/2")
 	csv = await response.text()
-	response = await fetch("https://firms.modaps.eosdis.nasa.gov/api/area/csv/7349994f446f64c565d38ce5a40e9c23/VIIRS_NOAA20_NRT/-160,-90,-90,90/2")
-	csv += await response.text()
 	temp = csv_to_geojson(csv)
 	}
 	catch (e) {
@@ -134,6 +132,6 @@ let get_noaa_firms = async () => {
 		return
 	}
 
-	// set a timer for 30 minutes
+	// set a timer for 60 minutes
 	setTimeout(get_perimeters, 60000 * 60)
 }
