@@ -14,7 +14,8 @@ let desktop_markers = {
 let display_headers = () => {
 	let main = document.getElementsByTagName("header")[0]
 	let subheader = document.createElement("h2")
-	subheader.innerHTML = "Incident Map (WIP)"
+	subheader.textContent = "Incident Map (WIP)"
+	subheader.setAttribute('style', 'text-align: center;')
 	main.appendChild(subheader)
 }
 
@@ -40,16 +41,29 @@ let display_map = (incidents, perimeters, firms) => {
 		}
 	}).addTo(map)
 
+	let firms_style = {
+		radius: 6,
+		fillColor: "#0000ff",
+		color: "#000",
+		weight: 1,
+		opacity: 1,
+		fillOpacity: 0.8
+	}
 	let firms_layer = L.geoJSON(firms, {
-		pointToLayer: function(_, latlng) {
-			return L.circleMarker(latlng, { radius: 6, fillColor: "#0000ff", color: "#000", weight: 1, opacity: 1, fillOpacity: 0.8 })
+		pointToLayer: function(feature, latlng) {
+			let style = firms_style
+			if (feature.properties.satellite === "N21")
+				style.color = "#00ff00"
+			if (feature.properties.satellite === "N20")
+				style.color = "#aaff00"
+			return L.circleMarker(latlng, style)
 		},
 		onEachFeature: function(feature, layer) {
 			if (feature.properties && feature.properties.acq_date) {
 				let brightness = feature.properties.bright_ti4
 				if (brightness === undefined)
 					brightness = "N/A"
-				layer.bindPopup(`<div id="popup-info"><b>Time: </b>${feature.properties.acq_date} ${feature.properties.acq_time} UTC</br><b>Brightness: </b>${brightness}`)
+				layer.bindPopup(`<div id="popup-info"><b>Time: </b>${feature.properties.acq_date} ${feature.properties.acq_time} UTC</br><b>Brightness: </b>${brightness}</br><b>Source: </b>${feature.properties.satellite}`)
 			}
 		}
 	})
@@ -140,6 +154,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 	let main = document.getElementById("main")
 	let loading = document.createElement("h1")
 	loading.textContent = "Loading incidents..."
+	loading.setAttribute('style', 'text-align: center;')
 	main.appendChild(loading)
 
 	let response = await fetch("https://wildfire-map.com/api/incidents", { method: "GET", mode: "cors" })
@@ -147,14 +162,14 @@ window.addEventListener('DOMContentLoaded', async () => {
 		throw new Error(`HTTP error! status: ${response.status}`);
 	}
 	const incidents = await response.json();
-	loading.textContent = "Loading Perimeters..."
+	loading.textContent = "Loading perimeters..."
 	response = await fetch("https://wildfire-map.com/api/perimeters", { method: "GET", mode: "cors" })
 	if (!response.ok) {
 		throw new Error(`HTTP error! status: ${response.status}`);
 	}
 	const perimeters = await response.json();
 	loading.textContent = "Loading FIRMS..."
-	response = await fetch("https://wildfire-map.com/api/firms", { method: "GET", mode: "cors" })
+	response = await fetch("http://localhost:5000/api/firms", { method: "GET", mode: "cors" })
 	if (!response.ok) {
 		throw new Error(`HTTP error! status: ${response.status}`);
 	}

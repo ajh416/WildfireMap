@@ -66,48 +66,71 @@ app.get('/api/firms', async (_, res) => {
 })
 
 let get_incidents = async () => {
-	console.log("Fetching new incidents...")
+	console.log(`Fetching new incidents at ${new Date()}...`)
+	let temp = {}
 	// NIFC ArcGIS API for incidents
+	try {
 	let response = await fetch("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson")
-	let temp = await response.json()
+	temp = await response.json()
+	}
+	catch (e) {
+		setTimeout(get_incidents, 4000)
+		return
+	}
 	if (temp !== undefined && temp.features.length > 0) {
 		nifc_incidents = temp
 	} else {
-		setTimeout(get_incidents, 100)
+		setTimeout(get_incidents, 4000)
 		return
 	}
 
-	// set a timer for 10 minutes
-	setTimeout(get_incidents, 20000 * 60)
+	// set a timer for 15 minutes
+	setTimeout(get_incidents, 60000 * 15)
 }
 
 let get_perimeters = async () => {
-	console.log("Fetching new perimeters...")
+	console.log(`Fetching new perimeters at ${new Date()}...`)
+	let temp = {}
 	// NIFC ArcGIS API
+	try {
 	let response = await fetch("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters_Current/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson")
-	let temp = await response.json()
+	temp = await response.json()
+	}
+	catch (e) {
+		setTimeout(get_perimeters, 4000)
+		return
+	}
 	if (temp !== undefined && temp.features.length > 0) {
 		nifc_perimeters = temp
 	} else {
-		setTimeout(get_perimeters, 100)
+		setTimeout(get_perimeters, 4000)
 		return
 	}
 
 	// set a timer for 30 minutes
-	setTimeout(get_perimeters, 45000 * 60)
+	setTimeout(get_perimeters, 60000 * 45)
 }
 
 let get_noaa_firms = async () => {
-	console.log("Fetching new noaa firms...")
+	console.log(`Fetching new noaa firms at ${new Date()}...`)
+	let temp = {}
 	// NOAA FIRMS API
+	try {
 	let response = await fetch("https://firms.modaps.eosdis.nasa.gov/api/area/csv/7349994f446f64c565d38ce5a40e9c23/VIIRS_NOAA21_NRT/-160,-90,-90,90/2")
 	csv = await response.text()
-	let temp = csv_to_geojson(csv)
+	response = await fetch("https://firms.modaps.eosdis.nasa.gov/api/area/csv/7349994f446f64c565d38ce5a40e9c23/VIIRS_NOAA20_NRT/-160,-90,-90,90/2")
+	csv += await response.text()
+	temp = csv_to_geojson(csv)
+	}
+	catch (e) {
+		setTimeout(get_noaa_firms, 4000)
+		return
+	}
 	if (temp !== undefined && temp.features.length > 0) {
 		noaa_firms = temp
 	}
 	else {
-		setTimeout(get_noaa_firms, 100)
+		setTimeout(get_noaa_firms, 4000)
 		return
 	}
 

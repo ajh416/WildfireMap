@@ -6,6 +6,10 @@
 	color: blue;
 }
 
+body {
+	background-color: #f8f8f8;
+}
+
 /* Legend specific, from https://codepen.io/haakseth/pen/KQbjdO */
 .legend {
   padding: 6px 8px;
