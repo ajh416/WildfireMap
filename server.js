@@ -65,6 +65,19 @@ app.get('/api/firms', async (_, res) => {
 	res.status(200).header("Access-Control-Allow-Origin", "*").send(noaa_firms)
 })
 
+app.post("/api/aqi", async (req, res) => {
+	if (process.env.AQI_KEY === undefined) {
+		res.status(500).send()
+		return
+	}
+	if (req.headers.x_api_key !== process.env.AQI_KEY) {
+		res.status(401).send()
+		return
+	}
+
+	res.status(200).send()
+})
+
 let get_incidents = async () => {
 	console.log(`Fetching new incidents at ${new Date()}...`)
 	let temp = {}
