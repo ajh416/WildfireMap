@@ -1,4 +1,5 @@
 let mobile_markers = {
+	0: 10,
 	1000: 12,
 	5000: 14,
 	10000: 16,
@@ -6,6 +7,7 @@ let mobile_markers = {
 }
 
 let desktop_markers = {
+	0: 4,
 	1000: 6,
 	5000: 8,
 	10000: 10,
@@ -141,7 +143,9 @@ let display_incidents = (incidents) => {
 				it = mobile_markers
 			else
 				it = desktop_markers
-			if (size < 1000 || feature.properties.IncidentSize === null)
+			if (size < 2 || feature.properties.IncidentSize === null) {
+				vars.radius = it[0]
+			} else if (size < 1000)
 				vars.radius = it[1000]
 			else if (size < 5000)
 				vars.radius = it[5000]
