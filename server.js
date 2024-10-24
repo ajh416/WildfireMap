@@ -65,35 +65,22 @@ app.get('/api/firms', async (_, res) => {
 	res.status(200).header("Access-Control-Allow-Origin", "*").send(noaa_firms)
 })
 
-app.post("/api/aqi", async (req, res) => {
-	if (process.env.AQI_KEY === undefined) {
-		res.status(500).send()
-		return
-	}
-	if (req.headers.x_api_key !== process.env.AQI_KEY) {
-		res.status(401).send()
-		return
-	}
-
-	res.status(200).send()
-})
-
 let get_incidents = async () => {
 	console.log(`Fetching new incidents at ${new Date()}...`)
 	let temp = {}
 	// NIFC ArcGIS API for incidents
 	try {
-	let response = await fetch("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson")
-	temp = await response.json()
+		let response = await fetch("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson")
+		temp = await response.json()
+		if (temp.features.length == 0 || temp === undefined) {
+			console.log("[WARN] No features found in NIFC Incidents")
+			setTimeout(get_incidents, 30000)
+			return
+		}
 	}
 	catch (e) {
-		setTimeout(get_incidents, 4000)
-		return
-	}
-	if (temp !== undefined && temp.features.length > 0) {
-		nifc_incidents = temp
-	} else {
-		setTimeout(get_incidents, 4000)
+		console.log(`[ERROR] Failed to fetch NIFC Incidents: ${e}`)
+		setTimeout(get_incidents, 30000)
 		return
 	}
 
@@ -106,22 +93,22 @@ let get_perimeters = async () => {
 	let temp = {}
 	// NIFC ArcGIS API
 	try {
-	let response = await fetch("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters_Current/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson")
-	temp = await response.json()
+		let response = await fetch("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters_Current/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson")
+		temp = await response.json()
+		if (temp.features.length == 0 || temp === undefined) {
+			console.log("[WARN] No features found in NIFC Perimeters")
+			setTimeout(get_perimeters, 30000)
+			return
+		}
 	}
 	catch (e) {
-		setTimeout(get_perimeters, 4000)
-		return
-	}
-	if (temp !== undefined && temp.features.length > 0) {
-		nifc_perimeters = temp
-	} else {
-		setTimeout(get_perimeters, 4000)
+		console.log(`[ERROR] Failed to fetch NIFC Perimeters: ${e}`)
+		setTimeout(get_perimeters, 30000)
 		return
 	}
 
-	// set a timer for 45 minutes
-	setTimeout(get_perimeters, 60000 * 45)
+	// set a timer for an hour
+	setTimeout(get_perimeters, 60000 * 60)
 }
 
 let get_noaa_firms = async () => {
@@ -129,22 +116,21 @@ let get_noaa_firms = async () => {
 	let temp = {}
 	// NOAA FIRMS API
 	try {
-	let response = await fetch("https://firms.modaps.eosdis.nasa.gov/api/area/csv/7349994f446f64c565d38ce5a40e9c23/VIIRS_NOAA21_NRT/-160,-90,-90,90/2")
-	csv = await response.text()
-	temp = csv_to_geojson(csv)
+		let response = await fetch("https://firms.modaps.eosdis.nasa.gov/api/area/csv/7349994f446f64c565d38ce5a40e9c23/VIIRS_NOAA21_NRT/-160,-90,-90,90/2")
+		csv = await response.text()
+		temp = csv_to_geojson(csv)
+		if (temp.features.length == 0 || temp === undefined) {
+			console.log("[WARN] No features found in NOAA FIRMS")
+			setTimeout(get_noaa_firms, 30000)
+			return
+		}
 	}
 	catch (e) {
-		setTimeout(get_noaa_firms, 4000)
-		return
-	}
-	if (temp !== undefined && temp.features.length > 0) {
-		noaa_firms = temp
-	}
-	else {
-		setTimeout(get_noaa_firms, 4000)
+		console.log(`[ERROR] Failed to fetch NOAA FIRMS: ${e}`)
+		setTimeout(get_noaa_firms, 30000)
 		return
 	}
 
-	// set a timer for 60 minutes
+	// set a timer for an hour
 	setTimeout(get_perimeters, 60000 * 60)
 }
