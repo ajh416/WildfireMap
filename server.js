@@ -85,6 +85,7 @@ let get_incidents = async () => {
 	}
 
 	console.log(`Fetched ${temp.features.length} incidents at ${new Date()}`)
+	nifc_incidents = temp
 	// set a timer for 15 minutes
 	setTimeout(get_incidents, 60000 * 15)
 }
@@ -109,6 +110,7 @@ let get_perimeters = async () => {
 	}
 
 	console.log(`Fetched ${temp.features.length} perimeters at ${new Date()}`)
+	nifc_perimeters = temp
 	// set a timer for an hour
 	setTimeout(get_perimeters, 60000 * 60)
 }
@@ -134,6 +136,7 @@ let get_noaa_firms = async () => {
 	}
 
 	console.log(`Fetched ${temp.features.length} noaa firms at ${new Date()}`)
+	noaa_firms = temp
 	// set a timer for an hour
 	setTimeout(get_perimeters, 60000 * 60)
 }
