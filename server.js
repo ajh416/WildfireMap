@@ -70,9 +70,9 @@ let get_incidents = async () => {
 	let temp = {}
 	// NIFC ArcGIS API for incidents
 	try {
-		let response = await fetch("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson")
+		let response = await fetch("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json")
 		temp = await response.json()
-		if (temp.features.length == 0 || temp === undefined) {
+		if (Object.keys(temp).length === 0 && temp.constructor === Object) {
 			console.log("[WARN] No features found in NIFC Incidents")
 			setTimeout(get_incidents, 30000)
 			return
@@ -84,6 +84,7 @@ let get_incidents = async () => {
 		return
 	}
 
+	console.log(`Fetched ${temp.features.length} incidents at ${new Date()}`)
 	// set a timer for 15 minutes
 	setTimeout(get_incidents, 60000 * 15)
 }
@@ -95,7 +96,7 @@ let get_perimeters = async () => {
 	try {
 		let response = await fetch("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters_Current/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson")
 		temp = await response.json()
-		if (temp.features.length == 0 || temp === undefined) {
+		if (Object.keys(temp).length === 0 && temp.constructor === Object) {
 			console.log("[WARN] No features found in NIFC Perimeters")
 			setTimeout(get_perimeters, 30000)
 			return
@@ -107,6 +108,7 @@ let get_perimeters = async () => {
 		return
 	}
 
+	console.log(`Fetched ${temp.features.length} perimeters at ${new Date()}`)
 	// set a timer for an hour
 	setTimeout(get_perimeters, 60000 * 60)
 }
@@ -119,7 +121,7 @@ let get_noaa_firms = async () => {
 		let response = await fetch("https://firms.modaps.eosdis.nasa.gov/api/area/csv/7349994f446f64c565d38ce5a40e9c23/VIIRS_NOAA21_NRT/-160,-90,-90,90/2")
 		csv = await response.text()
 		temp = csv_to_geojson(csv)
-		if (temp.features.length == 0 || temp === undefined) {
+		if (Object.keys(temp).length === 0 && temp.constructor === Object) {
 			console.log("[WARN] No features found in NOAA FIRMS")
 			setTimeout(get_noaa_firms, 30000)
 			return
@@ -131,6 +133,7 @@ let get_noaa_firms = async () => {
 		return
 	}
 
+	console.log(`Fetched ${temp.features.length} noaa firms at ${new Date()}`)
 	// set a timer for an hour
 	setTimeout(get_perimeters, 60000 * 60)
 }
