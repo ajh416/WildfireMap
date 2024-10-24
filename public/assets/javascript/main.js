@@ -17,8 +17,8 @@ let desktop_markers = {
 let display_headers = () => {
 	let main = document.getElementsByTagName("header")[0]
 	let subheader = document.createElement("h2")
-	subheader.textContent = "Incident Map (WIP)"
-	subheader.setAttribute('style', 'text-align: center;')
+	subheader.className = "subheader"
+	subheader.textContent = "Wildfire Map"
 	main.appendChild(subheader)
 }
 
@@ -34,6 +34,8 @@ window.addEventListener('DOMContentLoaded', async () => {
 	let div
 	loading.onAdd = function(_) {
 		div = L.DomUtil.create("div", "loading")
+		//div.style.backgroundColor = "black"
+		div.style.color = "#010101"
 		div.innerHTML = "<h1>Loading incidents...</h1>"
 		return div
 	}
@@ -45,7 +47,6 @@ window.addEventListener('DOMContentLoaded', async () => {
 	}
 	const incidents = await response.json()
 	let inc = display_incidents(incidents)
-	inc.addTo(map)
 
 	div.innerHTML = "<h1>Loading perimeters...</h1>"
 	response = await fetch("https://wildfire-map.com/api/perimeters", { method: "GET", mode: "cors" })
@@ -54,7 +55,6 @@ window.addEventListener('DOMContentLoaded', async () => {
 	}
 	const perimeters = await response.json()
 	let perim = display_perimeters(perimeters)
-	map.removeLayer(inc)
 	perim.addTo(map)
 	inc.addTo(map)
 
@@ -100,9 +100,10 @@ let init_map = () => {
 
 	/* Legend specific, from https://codepen.io/haakseth/pen/KQbjdO */
 	let legend = L.control({ position: "bottomleft" })
-
 	legend.onAdd = function(_) {
 		let div = L.DomUtil.create("div", "legend")
+		div.style.backgroundColor = "#010101"
+		div.style.color = "#fff"
 		div.innerHTML += "<h4>Legend</h4>"
 		div.innerHTML += '<i style="background: #ff7800"></i><span>Incidents >24hrs old</span><br>'
 		div.innerHTML += '<i style="background: #ff5555"></i><span>Incidents <24hrs old</span><br>'
@@ -111,7 +112,6 @@ let init_map = () => {
 		div.innerHTML += '<i style="background: #0000ff"></i><span>NOAA/NASA FIRMS Heat Sources</span><br>'
 		return div
 	}
-
 	legend.addTo(map)
 
 	return [map, sat_layer, osm_layer]
