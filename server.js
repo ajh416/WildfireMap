@@ -138,5 +138,5 @@ let get_noaa_firms = async () => {
 	console.log(`Fetched ${temp.features.length} noaa firms at ${new Date()}`)
 	noaa_firms = temp
 	// set a timer for an hour
-	setTimeout(get_perimeters, 60000 * 60)
+	setTimeout(get_noaa_firms, 60000 * 60)
 }
