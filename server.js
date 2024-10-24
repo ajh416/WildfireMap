@@ -70,7 +70,7 @@ let get_incidents = async () => {
 	let temp = {}
 	// NIFC ArcGIS API for incidents
 	try {
-		let response = await fetch("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json")
+		let response = await fetch("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson")
 		temp = await response.json()
 		if (Object.keys(temp).length === 0 && temp.constructor === Object) {
 			console.log("[WARN] No features found in NIFC Incidents")
