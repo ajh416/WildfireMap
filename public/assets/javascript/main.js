@@ -119,13 +119,13 @@ let init_map = () => {
 
 let display_incidents = (incidents) => {
 	let smallFireIcon = L.icon({
-		iconUrl: 'http://localhost:5000/assets/images/flame-icon.png',
+		iconUrl: 'https://wildfire-map.com/assets/images/flame-icon.png',
 		iconSize: [25, 25],
 		iconAnchor: [25/2, 25],
 		popupAnchor: [0, -24],
 	})
 	let largeFireIcon = L.icon({
-		iconUrl: 'http://localhost:5000/assets/images/flame-icon.png',
+		iconUrl: 'https://wildfire-map.com/assets/images/flame-icon.png',
 		iconSize: [35, 35],
 		iconAnchor: [35/2, 35],
 		popupAnchor: [0, -34],
