@@ -118,14 +118,19 @@ let init_map = () => {
 }
 
 let display_incidents = (incidents) => {
-	let smallMarkerOptions = {
-		radius: 6,
-		fillColor: "#ff7800",
-		color: "#000",
-		weight: 1,
-		opacity: 1,
-		fillOpacity: 0.8
-	}
+	let smallFireIcon = L.icon({
+		iconUrl: 'http://localhost:5000/assets/images/flame-icon.png',
+		iconSize: [25, 25],
+		iconAnchor: [25/2, 25],
+		popupAnchor: [0, -24],
+	})
+	let largeFireIcon = L.icon({
+		iconUrl: 'http://localhost:5000/assets/images/flame-icon.png',
+		iconSize: [35, 35],
+		iconAnchor: [35/2, 35],
+		popupAnchor: [0, -34],
+	})
+	
 	function onEachFeature(feature, layer) {
 		let containment = feature.properties.PercentContained
 		if (containment === null || containment === undefined)
@@ -135,34 +140,11 @@ let display_incidents = (incidents) => {
 		}
 	}
 	let inc = L.geoJSON(incidents, {
-		style: function(feature) {
-			let vars = {}
-			let size = parseInt(feature.properties.IncidentSize)
-			let it = {}
-			if (window.innerWidth < 1000)
-				it = mobile_markers
-			else
-				it = desktop_markers
-			if (size < 2 || feature.properties.IncidentSize === null) {
-				vars.radius = it[0]
-			} else if (size < 1000)
-				vars.radius = it[1000]
-			else if (size < 5000)
-				vars.radius = it[5000]
-			else if (size < 10000)
-				vars.radius = it[10000]
-			else
-				vars.radius = it[100000]
-			let d = new Date(feature.properties.CreatedOnDateTime_dt)
-			let now = new Date()
-			if (now - d < 3600 * 12 * 1000)
-				vars.fillColor = "#ff0000"
-			else if (now - d < 3600 * 24 * 1000)
-				vars.fillColor = "#ff5555"
-			return vars
-		},
-		pointToLayer: function(_, latlng) {
-			return L.circleMarker(latlng, smallMarkerOptions)
+		pointToLayer: function(feature, latlng) {
+			let icon = smallFireIcon
+			if (feature.properties.IncidentSize > 1000)
+				icon = largeFireIcon
+			return L.marker(latlng, { icon: icon })
 		},
 		onEachFeature: onEachFeature
 	})
