@@ -6,13 +6,13 @@
 }
 
 body {
-	background-color: #010101;
+	background-color: #181a1b;
 	color: #fff;
 }
 
 .subheader {
 	color: #fff;
-	background-color: #010101;
+	background-color: #181a1b;
 	padding-left: 15px;
 }
 
@@ -20,18 +20,17 @@ body {
 .legend {
 	padding: 6px 8px;
 	font: 14px Arial, Helvetica, sans-serif;
-	background: white;
-	background: rgba(255, 255, 255, 0.8);
+	background-color: #181a1b;
 	/*box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);*/
 	/*border-radius: 5px;*/
 	line-height: 24px;
-	color: #555;
+	color: #aaa;
 }
 .legend h4 {
 	text-align: center;
 	font-size: 16px;
 	margin: 2px 12px 8px;
-	color: #777;
+	color: #888;
 }
 
 .legend span {
@@ -66,7 +65,7 @@ body {
 /* For desktops */
 @media (min-width: 1280px) {
 	#map {
-		height: 90vh;
+		height: 93vh;
 	}
 	#popup-info {
 		font-size: 14px;

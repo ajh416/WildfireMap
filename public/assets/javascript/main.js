@@ -102,8 +102,6 @@ let init_map = () => {
 	let legend = L.control({ position: "bottomleft" })
 	legend.onAdd = function(_) {
 		let div = L.DomUtil.create("div", "legend")
-		div.style.backgroundColor = "#010101"
-		div.style.color = "#fff"
 		div.innerHTML += "<h4>Legend</h4>"
 		div.innerHTML += '<i style="background: #ff7800"></i><span>Incidents >24hrs old</span><br>'
 		div.innerHTML += '<i style="background: #ff5555"></i><span>Incidents <24hrs old</span><br>'
