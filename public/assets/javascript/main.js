@@ -103,13 +103,14 @@ let init_map = () => {
 	legend.onAdd = function(_) {
 		let div = L.DomUtil.create("div", "legend")
 		div.innerHTML += "<h4>Legend</h4>"
-		div.innerHTML += '<i style="background: #ff7800"></i><span>Incidents >24hrs old</span><br>'
-		div.innerHTML += '<i style="background: #ff5555"></i><span>Incidents <24hrs old</span><br>'
-		div.innerHTML += '<i style="background: #ff0000"></i><span>Incidents <12hrs old</span><br>'
-		div.innerHTML += '<i style="background: #7777ff"></i><span>Perimeters</span><br>'
-		div.innerHTML += '<i style="background: #0000ff"></i><span>NOAA/NASA FIRMS Heat Sources</span><br>'
+		let ul = L.DomUtil.create("ul", "", div)
+		ul.style = "list-style-type:none; padding: 0px 0px;"
+		ul.innerHTML += "<li><i class='incident-icon'></i><span>Incidents</span></li>"
+		ul.innerHTML += "<li><i style='background: #7777ff'></i><span>Perimeters</span></li>"
+		ul.innerHTML += "<li><i style='background: #0000ff'></i><span>NOAA/NASA FIRMS Heat Sources</span></li>"
 		return div
 	}
+
 	legend.addTo(map)
 
 	return [map, sat_layer, osm_layer]
