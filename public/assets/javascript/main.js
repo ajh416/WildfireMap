@@ -1,19 +1,3 @@
-let mobile_markers = {
-	0: 10,
-	1000: 12,
-	5000: 14,
-	10000: 16,
-	100000: 17,
-}
-
-let desktop_markers = {
-	0: 4,
-	1000: 6,
-	5000: 8,
-	10000: 10,
-	100000: 11,
-}
-
 let display_headers = () => {
 	let main = document.getElementsByTagName("header")[0]
 	let subheader = document.createElement("h2")
@@ -46,7 +30,9 @@ window.addEventListener('DOMContentLoaded', async () => {
 		throw new Error(`HTTP error! status: ${response.status}`)
 	}
 	const incidents = await response.json()
-	let inc = display_incidents(incidents)
+	res = display_incidents(incidents)
+	let inc = res[0]
+	let smallinc = res[1]
 
 	div.innerHTML = "<h1>Loading perimeters...</h1>"
 	response = await fetch("https://wildfire-map.com/api/perimeters", { method: "GET", mode: "cors" })
@@ -75,6 +61,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 		"NASA/NOAA FIRMS": firms_layer,
 		"Perimeters": perim,
 		"Active Incidents": inc,
+		"Small/Undefined Incidents": smallinc,
 	}
 
 	document.getElementsByClassName("loading")[0].remove()
@@ -117,6 +104,13 @@ let init_map = () => {
 }
 
 let display_incidents = (incidents) => {
+	let verysmallFireIcon = L.icon({
+		iconUrl: 'https://wildfire-map.com/assets/images/flame-icon.png',
+		iconSize: [15, 15],
+		iconAnchor: [15/2, 15],
+		popupAnchor: [0, -14],
+	})
+
 	let smallFireIcon = L.icon({
 		iconUrl: 'https://wildfire-map.com/assets/images/flame-icon.png',
 		iconSize: [25, 25],
@@ -143,12 +137,23 @@ let display_incidents = (incidents) => {
 			let icon = smallFireIcon
 			if (feature.properties.IncidentSize > 1000)
 				icon = largeFireIcon
+			if (feature.properties.IncidentSize == null || feature.properties.IncidentSize < 1)
+				return null
 			return L.marker(latlng, { icon: icon })
 		},
 		onEachFeature: onEachFeature
 	})
 
-	return inc
+	let smallinc = L.geoJSON(incidents, {
+		pointToLayer: function(feature, latlng) {
+			let icon = verysmallFireIcon
+			if (feature.properties.IncidentSize < 1 || feature.properties.IncidentSize == null)
+				return L.marker(latlng, { icon: icon })
+		},
+		onEachFeature: onEachFeature
+	})
+
+	return [inc, smallinc]
 }
 
 let display_perimeters = (perimeters) => {
