@@ -1,14 +1,4 @@
-let display_headers = () => {
-	let main = document.getElementsByTagName("header")[0]
-	let subheader = document.createElement("h2")
-	subheader.className = "subheader"
-	subheader.textContent = "Wildfire Map"
-	main.appendChild(subheader)
-}
-
 window.addEventListener('DOMContentLoaded', async () => {
-	display_headers()
-
 	let res = init_map()
 	let map = res[0]
 	let sat_layer = res[1]
