@@ -11,6 +11,7 @@
 			integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
 		crossorigin="">
 		</script>
+		<script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
 		<link rel="stylesheet" type="text/css" media="all" href="/assets/stylesheets/main.css">
 		<script src="/assets/javascript/main.js"></script>
 	</head>
@@ -18,6 +19,11 @@
 	<body>
 		<header>
 			<h1>Wildfire Map</h1>
+			<div id="stats">
+				Active Fires: <span id="fireCount">0</span> | 
+				Heat Points: <span id="heatCount">0</span> |
+				Prescribed Fires: <span id="rxCount">0</span>
+			</div>
 		</header>
 
 		<div id="map"></div>

@@ -1,3 +1,5 @@
+let firms_points = []
+
 window.addEventListener('DOMContentLoaded', async () => {
 	let res = init_map()
 	let map = res[0]
@@ -23,6 +25,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 	res = display_incidents(incidents)
 	let inc = res[0]
 	let smallinc = res[1]
+	let rx = res[2]
 
 	div.innerHTML = "<h1>Loading perimeters...</h1>"
 	response = await fetch("https://wildfire-map.com/api/perimeters", { method: "GET", mode: "cors" })
@@ -41,6 +44,12 @@ window.addEventListener('DOMContentLoaded', async () => {
 	}
 	const firms = await response.json()
 	let firms_layer = display_firms(firms)
+	const heatLayer = L.heatLayer(firms_points, {
+		radius: 20,
+		blur: 10,
+		maxZoom: 17,
+		gradient: { 0.3: 'yellow', 0.6: 'orange', 0.9: 'red' } // Wildfire colors
+	});
 
 	let baseMaps = {
 		"Google Maps Satellite": sat_layer,
@@ -49,14 +58,20 @@ window.addEventListener('DOMContentLoaded', async () => {
 
 	let overlays = {
 		"NASA/NOAA FIRMS": firms_layer,
+		"FIRMS Heatmap (WIP)": heatLayer,
 		"Perimeters": perim,
 		"Active Incidents": inc,
 		"Small/Undefined Incidents": smallinc,
+		"Prescribed Burns": rx
 	}
 
 	document.getElementsByClassName("loading")[0].remove()
 
 	L.control.layers(baseMaps, overlays).addTo(map)
+
+	document.getElementById('fireCount').textContent = inc.getLayers().length;
+	document.getElementById('heatCount').textContent = firms_layer.getLayers().length;
+	document.getElementById('rxCount').textContent = rx.getLayers().length;
 });
 
 let init_map = () => {
@@ -76,7 +91,7 @@ let init_map = () => {
 	})
 
 	/* Legend specific, from https://codepen.io/haakseth/pen/KQbjdO */
-	let legend = L.control({ position: "bottomleft" })
+		let legend = L.control({ position: "bottomleft" })
 	legend.onAdd = function(_) {
 		let div = L.DomUtil.create("div", "legend")
 		div.innerHTML += "<h4>Legend</h4>"
@@ -94,6 +109,17 @@ let init_map = () => {
 }
 
 let display_incidents = (incidents) => {
+	let rxIncidents = []
+	let length = incidents.features.length
+	for (let i = 0; i < length; i++) {
+		let feature = incidents.features[i]
+		if (feature.properties.IncidentName.toLowerCase().includes("rx")) {
+			rxIncidents.push(feature)
+			incidents.features.splice(i, 1)
+			i--
+			length--
+		}
+	}
 	let verysmallFireIcon = L.icon({
 		iconUrl: 'https://wildfire-map.com/assets/images/flame-icon.png',
 		iconSize: [15, 15],
@@ -113,15 +139,25 @@ let display_incidents = (incidents) => {
 		iconAnchor: [35/2, 35],
 		popupAnchor: [0, -34],
 	})
-	
+	let prescriptionIcon = L.icon({
+		iconUrl: 'https://wildfire-map.com/assets/images/rx-icon.png',
+		iconSize: [25, 25],
+		iconAnchor: [25/2, 25],
+		popupAnchor: [0, -24],
+	})
+
 	function onEachFeature(feature, layer) {
+		let size = feature.properties.IncidentSize
+		if (size === null || size === undefined)
+			size = 'N/A'
 		let containment = feature.properties.PercentContained
 		if (containment === null || containment === undefined)
-			containment = '0'
+			containment = 'N/A'
 		if (feature.properties && feature.properties.IncidentName) {
 			layer.bindPopup(`<div id="popup-info"><b>Name: </b>${feature.properties.IncidentName}</br><b>Incident Size: </b>${feature.properties.IncidentSize} acres</br><b>Reported Date: </b>${new Date(feature.properties.CreatedOnDateTime_dt).toString()}</br><b>Last Updated: </b>${new Date(feature.properties.ModifiedOnDateTime_dt).toString()}</br><b>% Contained: </b>${containment}</div>`)
 		}
 	}
+
 	let inc = L.geoJSON(incidents, {
 		pointToLayer: function(feature, latlng) {
 			let icon = smallFireIcon
@@ -143,7 +179,14 @@ let display_incidents = (incidents) => {
 		onEachFeature: onEachFeature
 	})
 
-	return [inc, smallinc]
+	let rx = L.geoJSON(rxIncidents, {
+		pointToLayer: function(feature, latlng) {
+			return L.marker(latlng, { icon: prescriptionIcon })
+		},
+		onEachFeature: onEachFeature
+	})
+
+	return [inc, smallinc, rx]
 }
 
 let display_perimeters = (perimeters) => {
@@ -157,6 +200,7 @@ let display_perimeters = (perimeters) => {
 }
 
 let display_firms = (firms) => {
+	firms_points = []
 	let firms_style = {
 		radius: 6,
 		fillColor: "#0000ff",
@@ -167,6 +211,7 @@ let display_firms = (firms) => {
 	}
 	let firms_layer = L.geoJSON(firms, {
 		pointToLayer: function(_, latlng) {
+			firms_points.push(latlng)
 			let style = firms_style
 			return L.circleMarker(latlng, style)
 		},

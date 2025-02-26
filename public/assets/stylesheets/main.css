@@ -15,9 +15,13 @@ body {
 /* Header Styling */
 header {
   background: linear-gradient(90deg, #ff5722, #d81b60); /* Wildfire-themed gradient */
-  padding: 10px; /* Reduced padding for a shorter header */
+  padding: 10px; /* Short height */
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+  display: flex; /* Flexbox to align title and stats */
+  flex-direction: column; /* Stack vertically */
+  align-items: center; /* Center horizontally */
+  gap: 5px; /* Small gap between title and stats */
 }
 
 h1 {
@@ -25,6 +29,18 @@ h1 {
   font-size: 2.5em;
   text-transform: uppercase;
   letter-spacing: 2px;
+  margin: 0; /* Remove default margin */
+}
+
+/* Stats Styling */
+#stats {
+  color: #fff; /* White text for contrast on gradient */
+  font-size: 1em; /* Slightly smaller than title */
+  opacity: 0.9; /* Slightly faded to distinguish from title */
+}
+
+#stats span {
+  font-weight: bold; /* Make counts stand out */
 }
 
 /* Subheader Styling */
